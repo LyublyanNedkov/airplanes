@@ -2,7 +2,7 @@
     <div>
         <p class="ln">LN</p>
         <br>
-        <p class="ph">Photography</p>   
+        <p class="ph">Photography</p>
     </div>
 </template>
 
