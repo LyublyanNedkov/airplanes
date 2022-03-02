@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="izmislica">
         <p class="ln">LN</p>
         <br> 
         <p class="ph">Photography</p>
