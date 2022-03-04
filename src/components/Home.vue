@@ -1,8 +1,8 @@
 <template>
-    <div class="izmislica">
-        <p class="ln">LN</p>
-        <br> 
-        <p class="ph">Photography</p>
+    <div>
+        <img class="icon" src="../assets/Icon.jpg" alt="icon">
+        <br>
+        <p class="ln">LN Photography</p>
     </div>
 </template>
 
@@ -15,8 +15,8 @@
 <style scoped>
     .ln {
         text-align: center;
-        font-size: 500px;
-        margin-top: -50px;
+        font-size: 200px;
+        margin-top: -83px;
         color: green;
     }
 
@@ -25,6 +25,11 @@
         font-size: 93px;
         margin-top: -210px;
         color: green;
+    }
+
+    .icon {
+        margin-left: 670px;
+        margin-top: -30px;
     }
 </style>
 

@@ -23,7 +23,7 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <div class="col-12">
-            <button class="btn btn-primary-contacts" type="submit">Submit text</button>
+            <button class="btn btn-primary" type="submit">Submit text</button>
         </div>
     </div>    
 </template>
@@ -35,5 +35,29 @@
 </script>
 
 <style scoped> 
+    .text-contacts {
+        margin-top: 70px;
+    }
 
+    .input-group {
+        margin-top: 50px;
+    }
+
+    .mb-3 {
+        margin-top: 50px;
+    }
+
+    .btn-primary {
+        margin-top: 19px;
+        margin-left: 580px;
+        background-color: lightseagreen;
+        color: lightgreen;
+        border: none;
+        font-size: 25px;
+    }
+
+    .btn-primary:hover {
+        background-color: lightgreen;
+        color: lightseagreen;
+    }
 </style>

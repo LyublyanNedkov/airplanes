@@ -37,5 +37,108 @@
 </script>
 
 <style scoped>  
+    .text-beginner {
+        margin-top: 100px;
+        margin-left: 480px;
+        background-color: grey;
+        width: 900px;
+        height: 300px;
+    }
 
+    .text-beginner-B {
+        color: lightgreen;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .text-beginner-B1 {
+        color: lightgreen;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .beginner-btn {
+        border: none;
+        border-radius: 5px;
+        font-size: 30px;
+        background-color: lightseagreen;
+        color: lightgreen;
+        margin-left: 380px;
+    }
+
+    .beginner-btn:hover {
+        background-color: lightgreen;
+        color: lightseagreen;
+    }
+
+    .text-medium {
+        margin-top: 100px;
+        margin-left: 480px;
+        background-color: grey;
+        width: 900px;
+        height: 300px;
+    }
+
+    .text-medium-M {
+        color: lightgreen;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .text-medium-M1 {
+        color: lightgreen;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .medium-btn {
+        border: none;
+        border-radius: 5px;
+        font-size: 30px;
+        background-color: lightseagreen;
+        color: lightgreen;
+        margin-left: 380px;
+    }
+
+    .medium-btn:hover {
+        background-color: lightgreen;
+        color: lightseagreen;
+    }
+
+    .text-expert {
+        margin-top: 100px;
+        margin-left: 480px;
+        background-color: grey;
+        width: 900px;
+        height: 300px;
+    }
+
+    .text-expert-E {
+        color: lightgreen;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .text-expert-E1 {
+        color: lightgreen;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .expert-btn {
+        border: none;
+        border-radius: 5px;
+        font-size: 30px;
+        background-color: lightseagreen;
+        color: lightgreen;
+        margin-left: 380px;
+    }
+
+    .expert-btn:hover {
+        background-color: lightgreen;
+        color: lightseagreen;
+    }
 </style>

@@ -43,45 +43,45 @@
 
     .btnC {
         font-size: 25px;
-        color: rgb(11, 163, 11);
+        color: lightgreen;
         text-decoration: none;
         margin-left: 100px;
     }
 
     .btnC:hover {
-        color: lightgreen;
+        color: lightseagreen;
     }
 
     .btnB {
         font-size: 25px;
-        color: rgb(11, 163, 11);
+        color: lightgreen;
         text-decoration: none;
         margin-left: 100px;
     }
 
     .btnB:hover {
-        color: lightgreen;
+        color: lightseagreen;
     }
 
     .btnA {
         font-size: 25px;
-        color: rgb(11, 163, 11);
+        color: lightgreen;
         text-decoration: none;
         margin-left: 1200px;
     }
 
     .btnA:hover {
-        color: lightgreen;
+        color: lightseagreen;
     }
 
     .btnD {
         font-size: 25px;
-        color: rgb(11, 163, 11);
+        color: lightgreen;
         text-decoration: none;
     }
 
     .btnD:hover {
-        color: lightgreen;
+        color: lightseagreen;
     }
 </style>
 
