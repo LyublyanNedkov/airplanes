@@ -1,3 +1,104 @@
-@use 'styles/header';
-@use 'styles/footer';
+.navbar {
+  background-color: grey;
+}
+
+.btnD {
+  font-size: 25px;
+  color: lightgreen;
+  text-decoration: none;
+  margin-left: 90px;
+}
+
+@media screen and (min-width: 1440px) {
+  .navbar-light {
+    width: 100%;
+    height: 80px;
+  }
+  .btnC {
+    font-size: 30px;
+    color: lightgreen;
+    text-decoration: none;
+    margin-left: 100px;
+  }
+  .btnC:hover {
+    color: lightseagreen;
+  }
+  .btnB {
+    font-size: 30px;
+    color: lightgreen;
+    text-decoration: none;
+    margin-left: 100px;
+  }
+  .btnB:hover {
+    color: lightseagreen;
+  }
+  .btnA {
+    font-size: 30px;
+    color: lightgreen;
+    text-decoration: none;
+    margin-left: 1200px;
+  }
+  .btnA:hover {
+    color: lightseagreen;
+  }
+  .btnD {
+    font-size: 30px;
+    color: lightgreen;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+  .btnD:hover {
+    color: lightseagreen;
+  }
+}
+
+.ln {
+  text-align: center;
+  font-size: 50px;
+  color: green;
+}
+
+.icon {
+  width: 300px;
+  height: 300px;
+  margin-left: 40px;
+}
+
+.btnC {
+  font-size: 50px;
+  color: lightgreen;
+  text-decoration: none;
+  margin-left: 95px;
+}
+
+.btnB {
+  font-size: 50px;
+  color: lightgreen;
+  text-decoration: none;
+  margin-left: 95px;
+}
+
+.btnA {
+  font-size: 50px;
+  color: lightgreen;
+  text-decoration: none;
+  margin-left: 95px;
+}
+
+.navbar-nav {
+  margin-top: 81px;
+}
+
+@media screen and (min-width: 1440px) {
+  .ln {
+    text-align: center;
+    font-size: 200px;
+    margin-top: -83px;
+    color: green;
+  }
+  .icon {
+    margin-left: 670px;
+    margin-top: -30px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

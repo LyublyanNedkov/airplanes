@@ -23,6 +23,7 @@
 </script>
 
 <style scoped>  
+    /* Mobile */
     .footer {
         position: sticky;
         background-color: grey;
@@ -36,7 +37,7 @@
     }
 
     .btnD {
-        margin-left: 900px;
+        margin-left: 135px;
     }
 
     .btnE {
@@ -45,5 +46,32 @@
 
     .btnF {
         margin-left: 20px;
+    }
+
+    /* Desktop */
+    @media screen and (min-width: 1140px) and (max-width: 1920px) {
+        .footer {
+            position: sticky;
+            background-color: grey;
+            margin-top: 50px;
+        }
+
+        .text {
+            text-align: center;
+            color: lightgreen;
+            font-size: 20px;
+        }
+
+        .btnD {
+            margin-left: 900px;
+        }
+
+        .btnE {
+            margin-left: 20px;
+        }
+
+        .btnF {
+            margin-left: 20px;
+        }
     }
 </style>

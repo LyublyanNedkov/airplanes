@@ -1,5 +1,17 @@
 <template>
     <div class="container">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <router-link class="btnA" to="Portfolio">Portfolio</router-link>
+            </li>
+            <li class="nav-item">
+                <router-link class="btnB" to="Courses">Courses</router-link>
+            </li>
+            <li class="nav-item">
+                <router-link class="btnC" to="Contacts">Contacts</router-link>
+            </li>               
+        </ul>
+
         <div class="text-contacts">
             <h1 class="text-contacts-h1">You can contact me if you need aditional information about the courses I offer, 
                private events and so on!
@@ -35,8 +47,13 @@
 </script>
 
 <style scoped> 
+    /* Mobile */
     .text-contacts {
         margin-top: 70px;
+    }
+
+    .text-contacts-h1 {
+        text-align: center;
     }
 
     .input-group {
@@ -49,15 +66,77 @@
 
     .btn-primary {
         margin-top: 19px;
-        margin-left: 580px;
+        margin-left: 115px;
         background-color: lightseagreen;
         color: lightgreen;
         border: none;
-        font-size: 25px;
+        font-size: 20px;
     }
 
-    .btn-primary:hover {
-        background-color: lightgreen;
-        color: lightseagreen;
+    .ln {
+        text-align: center;
+        font-size: 50px;
+        color: green;
+    }
+
+    .icon {
+        width: 300px;
+        height: 300px;
+        margin-left: 40px;
+        /* margin-top: -30px; */
+    }
+
+    .btnC {
+        font-size: 40px;
+        color: lightgreen;
+        text-decoration: none;
+        margin-left: 95px;
+    }
+
+    .btnB {
+        font-size: 40px;
+        color: lightgreen;
+        text-decoration: none;
+        margin-left: 95px;
+    }
+
+    .btnA {
+        font-size: 40px;
+        color: lightgreen;
+        text-decoration: none;
+        margin-left: 95px;
+    }
+
+    .navbar-nav {
+        margin-top: 20px;
+    }
+
+    /* Deskotop */
+    @media screen and (min-width: 1140px) and (max-width: 1920px) {
+        .text-contacts {
+            margin-top: 70px;
+        }
+
+        .input-group {
+            margin-top: 50px;
+        }
+
+        .mb-3 {
+            margin-top: 50px;
+        }
+
+        .btn-primary {
+            margin-top: 19px;
+            margin-left: 580px;
+            background-color: lightseagreen;
+            color: lightgreen;
+            border: none;
+            font-size: 25px;
+        }
+
+        .btn-primary:hover {
+            background-color: lightgreen;
+            color: lightseagreen;
+        }
     }
 </style>

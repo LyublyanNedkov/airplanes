@@ -1,3 +1,12 @@
-@use 'styles/header';
-@use 'styles/footer';
+@import 'styles/colors';
+@import 'styles/general';
+@import 'styles/header_mobile';
+@import 'styles/header_desktop';
+@import 'styles/home_mobile';
+@import 'styles/home_desktop';
+@import 'styles/footer_mobile';
+@import 'styles/footer_desktop';
+
+
+
 
