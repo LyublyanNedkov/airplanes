@@ -1,0 +1,37 @@
+@media (max-width: 640px) {
+    .ln {
+        text-align: center;
+        font-size: 3rem;
+        width: 100%;
+        color: $green;
+    }
+
+    .icon {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ln {
+        text-align: center;
+        font-size: 5rem;
+        color: $green;
+    }
+
+    .icon {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .ln {
+        text-align: center;
+        font-size: 10rem;
+        width: 100%;
+        color: $green;
+    }
+
+    .icon {
+        width: 100%;
+    }
+}

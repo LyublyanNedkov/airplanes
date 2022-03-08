@@ -1,0 +1,137 @@
+@media screen and (min-width: 640px) {
+    .btnA {
+        font-size: 1rem;
+        color: $lightgreen;
+        text-decoration: none;
+    }
+
+    .btnA:hover {
+        color: $lightseagreen;
+    }
+
+    .btnB {
+        font-size: 1rem;
+        color: $lightgreen;
+        text-decoration: none;
+    }
+
+    .btnB:hover {
+        color: $lightseagreen;
+    }
+
+    .btnC {
+        font-size: 1rem;
+        color: $lightgreen;
+        text-decoration: none;
+    }
+
+    .btnC:hover {
+        color: $lightseagreen;
+    }
+
+    .btnD {
+        font-size: 2rem;
+        color: $lightgreen;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .btnD:hover {
+        color: $lightseagreen;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .btnA {
+        font-size: 1.5rem;
+        color: $lightgreen;
+        text-decoration: none;
+        padding-left: 1rem;
+    }
+
+    .btnA:hover {
+        color: $lightseagreen;
+    }
+
+    .btnB {
+        font-size: 1.5rem;
+        color: $lightgreen;
+        text-decoration: none;
+        padding-left: 1rem;
+    }
+
+    .btnB:hover {
+        color: $lightseagreen;
+    }
+
+    .btnC {
+        font-size: 1.5rem;
+        color: $lightgreen;
+        text-decoration: none;
+        padding-left: 1rem;
+    }
+
+    .btnC:hover {
+        color: $lightseagreen;
+    }
+
+    .btnD {
+        font-size: 2rem;
+        color: $lightgreen;
+        text-decoration: none;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        cursor: pointer;
+    }
+
+    .btnD:hover {
+        color: $lightseagreen;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .btnA {
+        font-size: 2rem;
+        color: $lightgreen;
+        text-decoration: none;
+    }
+
+    .btnA:hover {
+        color: $lightseagreen;
+    }
+
+    .btnB {
+        font-size: 2rem;
+        color: $lightgreen;
+        text-decoration: none;
+        padding-left: 1rem;
+    }
+
+    .btnB:hover {
+        color: $lightseagreen;
+    }
+
+    .btnC {
+        font-size: 2rem;
+        color: $lightgreen;
+        text-decoration: none;
+        padding-left: 1rem;
+    }
+
+    .btnC:hover {
+        color: $lightseagreen;
+    }
+
+    .btnD {
+        font-size: 2rem;
+        color: $lightgreen;
+        text-decoration: none;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        cursor: pointer;
+    }
+
+    .btnD:hover {
+        color: $lightseagreen;
+    }
+}
