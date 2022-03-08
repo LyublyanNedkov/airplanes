@@ -1,17 +1,5 @@
 <template>
     <div class="container">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <router-link class="btnA" to="Portfolio">Portfolio</router-link>
-            </li>
-            <li class="nav-item">
-                <router-link class="btnB" to="Courses">Courses</router-link>
-            </li>
-            <li class="nav-item">
-                <router-link class="btnC" to="Contacts">Contacts</router-link>
-            </li>               
-        </ul>
-
         <div class="text-contacts">
             <h1 class="text-contacts-h1">You can contact me if you need aditional information about the courses I offer, 
                private events and so on!

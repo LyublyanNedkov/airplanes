@@ -1,17 +1,5 @@
 <template>
     <div>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <router-link class="btnA" to="Portfolio">Portfolio</router-link>
-            </li>
-            <li class="nav-item">
-                <router-link class="btnB" to="Courses">Courses</router-link>
-            </li>
-            <li class="nav-item">
-                <router-link class="btnC" to="Contacts">Contacts</router-link>
-            </li>               
-        </ul>
-
         <div class="text-beginner">
             <p class="text-beginner-B">Beginner</p>
             <p class="text-beginner-B1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 

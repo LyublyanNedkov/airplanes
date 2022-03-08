@@ -1,19 +1,17 @@
 <template>
     <div>
-        <img class="icon" src="../assets/Icon.jpg" alt="icon">
-        <br>
-        <p class="ln">LN Photography</p>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <router-link class="btnA" to="Portfolio">Portfolio</router-link>
-            </li>
-            <li class="nav-item">
-                <router-link class="btnB" to="Courses">Courses</router-link>
-            </li>
-            <li class="nav-item">
-                <router-link class="btnC" to="Contacts">Contacts</router-link>
-            </li>               
-        </ul>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-12 col-xxl-12">
+                    <img class="icon" src="../assets/Icon.jpg" alt="icon">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="ln">LN Photography</p>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 

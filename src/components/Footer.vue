@@ -1,19 +1,28 @@
 <template>
-    <div>                
-        <footer class="footer">   
-            <a href="https://www.facebook.com/">
-                <box-icon class="btnD" type='logo' name='facebook-square'></box-icon>
-            </a>
-            <a href="https://www.instagram.com/">
-                <box-icon class="btnE" type='logo' name='instagram-alt'></box-icon>
-            </a>
-            <a href="https://twitter.com/?lang=bg">
-                <box-icon class="btnF" type='logo' name='twitter'></box-icon>
-            </a>
-            <br>
-            <p class="text">© 2022 Copyright: LNPhotography.com</p>            
-        </footer>
-    </div>    
+    <div class="container-12 container-footer sticky-bottom">
+        <div class="row">
+            <div class="col-sm-4 col-xxl-4 text-center">
+                <a href="https://www.facebook.com/">
+                    <box-icon class="facebook" type='logo' name='facebook-square'></box-icon>
+                </a>
+            </div>
+            <div class="col-sm-4 col-xxl-4 text-center">
+                <a href="https://www.instagram.com/">
+                    <box-icon class="instagram" type='logo' name='instagram-alt'></box-icon>
+                </a>
+            </div>
+            <div class="col-sm-4 col-xxl-4 text-center">
+                <a href="https://twitter.com/?lang=bg">
+                    <box-icon class="twitter" type='logo' name='twitter'></box-icon>
+                </a>
+            </div>
+            <div class="row">
+                <div class="text-center">
+                    <p class="text-copyright">© 2022 Copyright: LNPhotography.com</p>
+                </div> 
+            </div>          
+        </div>       
+    </div>                
 </template>
 
 <script>
@@ -22,56 +31,6 @@
     }
 </script>
 
-<style scoped>  
-    /* Mobile */
-    .footer {
-        position: sticky;
-        background-color: grey;
-        margin-top: 50px;
-    }
+<style scoped>
 
-    .text {
-        text-align: center;
-        color: lightgreen;
-        font-size: 20px;
-    }
-
-    .btnD {
-        margin-left: 135px;
-    }
-
-    .btnE {
-        margin-left: 20px;
-    }
-
-    .btnF {
-        margin-left: 20px;
-    }
-
-    /* Desktop */
-    @media screen and (min-width: 1140px) and (max-width: 1920px) {
-        .footer {
-            position: sticky;
-            background-color: grey;
-            margin-top: 50px;
-        }
-
-        .text {
-            text-align: center;
-            color: lightgreen;
-            font-size: 20px;
-        }
-
-        .btnD {
-            margin-left: 900px;
-        }
-
-        .btnE {
-            margin-left: 20px;
-        }
-
-        .btnF {
-            margin-left: 20px;
-        }
-    }
 </style>

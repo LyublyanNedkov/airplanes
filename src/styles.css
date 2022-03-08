@@ -2,103 +2,282 @@
   background-color: grey;
 }
 
-.btnD {
-  font-size: 25px;
-  color: lightgreen;
-  text-decoration: none;
-  margin-left: 90px;
-}
-
-@media screen and (min-width: 1440px) {
-  .navbar-light {
-    width: 100%;
-    height: 80px;
-  }
-  .btnC {
-    font-size: 30px;
-    color: lightgreen;
-    text-decoration: none;
-    margin-left: 100px;
-  }
-  .btnC:hover {
-    color: lightseagreen;
-  }
-  .btnB {
-    font-size: 30px;
-    color: lightgreen;
-    text-decoration: none;
-    margin-left: 100px;
-  }
-  .btnB:hover {
-    color: lightseagreen;
-  }
+@media screen and (min-width: 640px) {
   .btnA {
-    font-size: 30px;
+    font-size: 1rem;
     color: lightgreen;
     text-decoration: none;
-    margin-left: 1200px;
   }
   .btnA:hover {
     color: lightseagreen;
   }
-  .btnD {
-    font-size: 30px;
+  .btnB {
+    font-size: 1rem;
     color: lightgreen;
     text-decoration: none;
-    margin-left: 0px;
+  }
+  .btnB:hover {
+    color: lightseagreen;
+  }
+  .btnC {
+    font-size: 1rem;
+    color: lightgreen;
+    text-decoration: none;
+  }
+  .btnC:hover {
+    color: lightseagreen;
+  }
+  .btnD {
+    font-size: 2rem;
+    color: lightgreen;
+    text-decoration: none;
+    cursor: pointer;
   }
   .btnD:hover {
     color: lightseagreen;
   }
 }
 
-.ln {
-  text-align: center;
-  font-size: 50px;
-  color: green;
+@media screen and (min-width: 1024px) {
+  .btnA {
+    font-size: 1.5rem;
+    color: lightgreen;
+    text-decoration: none;
+    padding-left: 1rem;
+  }
+  .btnA:hover {
+    color: lightseagreen;
+  }
+  .btnB {
+    font-size: 1.5rem;
+    color: lightgreen;
+    text-decoration: none;
+    padding-left: 1rem;
+  }
+  .btnB:hover {
+    color: lightseagreen;
+  }
+  .btnC {
+    font-size: 1.5rem;
+    color: lightgreen;
+    text-decoration: none;
+    padding-left: 1rem;
+  }
+  .btnC:hover {
+    color: lightseagreen;
+  }
+  .btnD {
+    font-size: 2rem;
+    color: lightgreen;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    cursor: pointer;
+  }
+  .btnD:hover {
+    color: lightseagreen;
+  }
 }
 
-.icon {
-  width: 300px;
-  height: 300px;
-  margin-left: 40px;
+@media screen and (min-width: 1440px) {
+  .btnA {
+    font-size: 2rem;
+    color: lightgreen;
+    text-decoration: none;
+  }
+  .btnA:hover {
+    color: lightseagreen;
+  }
+  .btnB {
+    font-size: 2rem;
+    color: lightgreen;
+    text-decoration: none;
+    padding-left: 1rem;
+  }
+  .btnB:hover {
+    color: lightseagreen;
+  }
+  .btnC {
+    font-size: 2rem;
+    color: lightgreen;
+    text-decoration: none;
+    padding-left: 1rem;
+  }
+  .btnC:hover {
+    color: lightseagreen;
+  }
+  .btnD {
+    font-size: 2rem;
+    color: lightgreen;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    cursor: pointer;
+  }
+  .btnD:hover {
+    color: lightseagreen;
+  }
 }
 
-.btnC {
-  font-size: 50px;
-  color: lightgreen;
-  text-decoration: none;
-  margin-left: 95px;
+@media (max-width: 640px) {
+  .ln {
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    color: green;
+  }
+  .icon {
+    width: 100%;
+  }
 }
 
-.btnB {
-  font-size: 50px;
-  color: lightgreen;
-  text-decoration: none;
-  margin-left: 95px;
-}
-
-.btnA {
-  font-size: 50px;
-  color: lightgreen;
-  text-decoration: none;
-  margin-left: 95px;
-}
-
-.navbar-nav {
-  margin-top: 81px;
+@media (max-width: 1024px) {
+  .ln {
+    text-align: center;
+    font-size: 5rem;
+    color: green;
+  }
+  .icon {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .ln {
     text-align: center;
-    font-size: 200px;
-    margin-top: -83px;
+    font-size: 10rem;
+    width: 100%;
     color: green;
   }
   .icon {
-    margin-left: 670px;
-    margin-top: -30px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    margin-top: 50px;
+    margin-left: 38px;
+  }
+  .pic {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+  }
+  .col {
+    padding: 5px;
+  }
+  .ln {
+    text-align: center;
+    font-size: 50px;
+    color: green;
+  }
+  .icon {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+  }
+  .btnC {
+    font-size: 40px;
+    color: lightgreen;
+    text-decoration: none;
+    margin-left: 110px;
+  }
+  .btnB {
+    font-size: 40px;
+    color: lightgreen;
+    text-decoration: none;
+    margin-left: 110px;
+  }
+  .btnA {
+    font-size: 40px;
+    color: lightgreen;
+    text-decoration: none;
+    margin-left: 110px;
+  }
+  .navbar-nav {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    margin-top: 50px;
+  }
+  .container img {
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .container img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .pic {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    -webkit-transform: translate(1.1);
+            transform: translate(1.1);
+  }
+  .col {
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .container-footer {
+    background-color: grey;
+  }
+  .text-copyright {
+    color: lightgreen;
+    font-size: 1.5rem;
+  }
+  .facebook {
+    font-size: 1.5rem;
+  }
+  .instagram {
+    font-size: 1.5rem;
+  }
+  .twitter {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-footer {
+    background-color: grey;
+  }
+  .text-copyright {
+    color: lightgreen;
+    font-size: 1.5rem;
+  }
+  .facebook {
+    font-size: 1.5rem;
+  }
+  .instagram {
+    font-size: 1.5rem;
+  }
+  .twitter {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container-footer {
+    background-color: grey;
+  }
+  .text-copyright {
+    color: lightgreen;
+    font-size: 1.5rem;
+  }
+  .facebook {
+    font-size: 1.5rem;
+  }
+  .instagram {
+    font-size: 1.5rem;
+  }
+  .twitter {
+    font-size: 1.5rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
