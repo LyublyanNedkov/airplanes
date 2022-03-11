@@ -8,36 +8,42 @@
     color: lightgreen;
     text-decoration: none;
   }
+
   .btnA:hover {
     color: lightseagreen;
   }
+
   .btnB {
     font-size: 1rem;
     color: lightgreen;
     text-decoration: none;
   }
+
   .btnB:hover {
     color: lightseagreen;
   }
+
   .btnC {
     font-size: 1rem;
     color: lightgreen;
     text-decoration: none;
   }
+
   .btnC:hover {
     color: lightseagreen;
   }
+
   .btnD {
     font-size: 2rem;
     color: lightgreen;
     text-decoration: none;
     cursor: pointer;
   }
+
   .btnD:hover {
     color: lightseagreen;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .btnA {
     font-size: 1.5rem;
@@ -45,27 +51,33 @@
     text-decoration: none;
     padding-left: 1rem;
   }
+
   .btnA:hover {
     color: lightseagreen;
   }
+
   .btnB {
     font-size: 1.5rem;
     color: lightgreen;
     text-decoration: none;
     padding-left: 1rem;
   }
+
   .btnB:hover {
     color: lightseagreen;
   }
+
   .btnC {
     font-size: 1.5rem;
     color: lightgreen;
     text-decoration: none;
     padding-left: 1rem;
   }
+
   .btnC:hover {
     color: lightseagreen;
   }
+
   .btnD {
     font-size: 2rem;
     color: lightgreen;
@@ -74,210 +86,493 @@
     padding-top: 0.5rem;
     cursor: pointer;
   }
+
   .btnD:hover {
     color: lightseagreen;
   }
 }
-
 @media screen and (min-width: 1440px) {
-  .btnA {
+  .container-header .btnA {
     font-size: 2rem;
     color: lightgreen;
     text-decoration: none;
+    padding-left: 3rem;
   }
-  .btnA:hover {
+  .container-header .btnA:hover {
     color: lightseagreen;
   }
-  .btnB {
+  .container-header .btnB {
     font-size: 2rem;
     color: lightgreen;
     text-decoration: none;
-    padding-left: 1rem;
+    padding-left: 4rem;
   }
-  .btnB:hover {
+  .container-header .btnB:hover {
     color: lightseagreen;
   }
-  .btnC {
+  .container-header .btnC {
     font-size: 2rem;
     color: lightgreen;
     text-decoration: none;
-    padding-left: 1rem;
+    padding-left: 4.5rem;
   }
-  .btnC:hover {
+  .container-header .btnC:hover {
     color: lightseagreen;
   }
-  .btnD {
-    font-size: 2rem;
+  .container-header .btnD {
+    font-size: 2.5rem;
     color: lightgreen;
     text-decoration: none;
     padding-left: 1rem;
     padding-top: 0.5rem;
     cursor: pointer;
   }
-  .btnD:hover {
+  .container-header .btnD:hover {
     color: lightseagreen;
   }
 }
-
-@media (max-width: 640px) {
-  .ln {
-    text-align: center;
-    font-size: 3rem;
-    width: 100%;
-    color: green;
-  }
-  .icon {
-    width: 100%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .ln {
-    text-align: center;
+@media (min-width: 640px) {
+  .container-home .ln {
     font-size: 5rem;
     color: green;
   }
-  .icon {
-    width: 100%;
+  .container-home .icon {
+    width: 20rem;
+    height: 20rem;
   }
 }
-
-@media screen and (min-width: 1440px) {
-  .ln {
-    text-align: center;
-    font-size: 10rem;
-    width: 100%;
+@media (min-width: 1024px) {
+  .container-home .ln {
+    font-size: 9rem;
     color: green;
   }
-  .icon {
-    width: 100%;
+  .container-home .icon {
+    width: 30rem;
+    height: 30rem;
   }
 }
-
+@media screen and (min-width: 1440px) {
+  .container-home .ln {
+    font-size: 11rem;
+    color: green;
+  }
+  .container-home .icon {
+    width: 30rem;
+    height: 30rem;
+  }
+  .container-home .audi-text {
+    font-family: "Roboto";
+    font-size: 6rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    color: black;
+  }
+  .container-home .audi-text:hover {
+    color: red;
+  }
+  .container-home .audi-img {
+    margin-bottom: 3rem;
+  }
+}
 @media screen and (min-width: 640px) {
-  .container {
-    margin-top: 50px;
-    margin-left: 38px;
-  }
-  .pic {
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-  }
-  .col {
-    padding: 5px;
-  }
-  .ln {
-    text-align: center;
-    font-size: 50px;
-    color: green;
-  }
-  .icon {
-    width: 300px;
-    height: 300px;
-    margin-left: 40px;
-  }
-  .btnC {
-    font-size: 40px;
-    color: lightgreen;
-    text-decoration: none;
-    margin-left: 110px;
-  }
-  .btnB {
-    font-size: 40px;
-    color: lightgreen;
-    text-decoration: none;
-    margin-left: 110px;
-  }
-  .btnA {
-    font-size: 40px;
-    color: lightgreen;
-    text-decoration: none;
-    margin-left: 110px;
-  }
-  .navbar-nav {
-    margin-top: 20px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .container {
-    margin-top: 50px;
-  }
-  .container img {
-    -webkit-transition: 1s;
+  .container-portfolio .container img {
     transition: 1s;
   }
-  .container img:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+  .container-portfolio .container img:hover {
+    transform: scale(1.1);
   }
-  .pic {
-    width: 300px;
-    height: 300px;
+  .container-portfolio .pic {
+    width: 20rem;
+    height: 20rem;
     border: 1px solid black;
-    -webkit-transform: translate(1.1);
-            transform: translate(1.1);
+    transform: translate(1.1);
   }
-  .col {
-    padding: 5px;
+  .container-portfolio .col {
+    padding: 0.3rem;
   }
 }
-
+@media screen and (min-width: 1024px) {
+  .container-portfolio .container img {
+    transition: 1s;
+  }
+  .container-portfolio .container img:hover {
+    transform: scale(1.1);
+  }
+  .container-portfolio .pic {
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid black;
+    transform: translate(1.1);
+  }
+  .container-portfolio .col {
+    padding: 0.3rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container-portfolio .container img {
+    transition: 1s;
+  }
+  .container-portfolio .container img:hover {
+    transform: scale(1.1);
+  }
+  .container-portfolio .pic {
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid black;
+    transform: translate(1.1);
+  }
+  .container-portfolio .col {
+    padding: 0.3rem;
+  }
+}
+@media screen and (min-width: 640px) {
+  .container-courses .text-beginner {
+    background-color: grey;
+    margin-top: 3rem;
+  }
+  .container-courses .text-beginner-B {
+    color: lightgreen;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .container-courses .text-beginner-B1 {
+    color: lightgreen;
+    font-size: 2rem;
+  }
+  .container-courses .beginner-btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: lightgreen;
+  }
+  .container-courses .beginner-btn:hover {
+    background-color: lightgreen;
+    color: lightseagreen;
+  }
+  .container-courses .text-medium {
+    background-color: grey;
+    margin-top: 3rem;
+  }
+  .container-courses .text-medium-M {
+    color: lightgreen;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .container-courses .text-medium-M1 {
+    color: lightgreen;
+    font-size: 2rem;
+  }
+  .container-courses .medium-btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: lightgreen;
+  }
+  .container-courses .medium-btn:hover {
+    background-color: lightgreen;
+    color: lightseagreen;
+  }
+  .container-courses .text-expert {
+    background-color: grey;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .container-courses .text-expert-E {
+    color: lightgreen;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .container-courses .text-expert-E1 {
+    color: lightgreen;
+    font-size: 2rem;
+  }
+  .container-courses .expert-btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: lightgreen;
+  }
+  .container-courses .expert-btn:hover {
+    background-color: lightgreen;
+    color: lightseagreen;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-courses .text-beginner {
+    background-color: grey;
+    margin-top: 3rem;
+  }
+  .container-courses .text-beginner-B {
+    color: lightgreen;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .container-courses .text-beginner-B1 {
+    color: lightgreen;
+    font-size: 2rem;
+  }
+  .container-courses .beginner-btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: lightgreen;
+  }
+  .container-courses .beginner-btn:hover {
+    background-color: lightgreen;
+    color: lightseagreen;
+  }
+  .container-courses .text-medium {
+    background-color: grey;
+    margin-top: 3rem;
+  }
+  .container-courses .text-medium-M {
+    color: lightgreen;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .container-courses .text-medium-M1 {
+    color: lightgreen;
+    font-size: 2rem;
+  }
+  .container-courses .medium-btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: lightgreen;
+  }
+  .container-courses .medium-btn:hover {
+    background-color: lightgreen;
+    color: lightseagreen;
+  }
+  .container-courses .text-expert {
+    background-color: grey;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .container-courses .text-expert-E {
+    color: lightgreen;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .container-courses .text-expert-E1 {
+    color: lightgreen;
+    font-size: 2rem;
+  }
+  .container-courses .expert-btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: lightgreen;
+  }
+  .container-courses .expert-btn:hover {
+    background-color: lightgreen;
+    color: lightseagreen;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container-courses .text-beginner {
+    background-color: grey;
+    margin-top: 3rem;
+  }
+  .container-courses .text-beginner-B {
+    color: lightgreen;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .container-courses .text-beginner-B1 {
+    color: lightgreen;
+    font-size: 2rem;
+  }
+  .container-courses .beginner-btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: lightgreen;
+  }
+  .container-courses .beginner-btn:hover {
+    background-color: lightgreen;
+    color: lightseagreen;
+  }
+  .container-courses .text-medium {
+    background-color: grey;
+    margin-top: 3rem;
+  }
+  .container-courses .text-medium-M {
+    color: lightgreen;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .container-courses .text-medium-M1 {
+    color: lightgreen;
+    font-size: 2rem;
+  }
+  .container-courses .medium-btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: lightgreen;
+  }
+  .container-courses .medium-btn:hover {
+    background-color: lightgreen;
+    color: lightseagreen;
+  }
+  .container-courses .text-expert {
+    background-color: grey;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .container-courses .text-expert-E {
+    color: lightgreen;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .container-courses .text-expert-E1 {
+    color: lightgreen;
+    font-size: 2rem;
+  }
+  .container-courses .expert-btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: lightgreen;
+  }
+  .container-courses .expert-btn:hover {
+    background-color: lightgreen;
+    color: lightseagreen;
+  }
+}
+@media screen and (min-width: 640px) {
+  .container-contacts .text-contacts {
+    padding-top: 2rem;
+  }
+  .container-contacts .input-group {
+    padding-top: 5rem;
+  }
+  .container-contacts .form-label {
+    padding-top: 2rem;
+  }
+  .container-contacts .btn-submit {
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: lightgreen;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .container-contacts .btn-submit:hover {
+    background-color: lightgreen;
+    color: lightseagreen;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-contacts .text-contacts {
+    padding-top: 2rem;
+  }
+  .container-contacts .input-group {
+    padding-top: 5rem;
+  }
+  .container-contacts .form-label {
+    padding-top: 2rem;
+  }
+  .container-contacts .btn-submit {
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: lightgreen;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .container-contacts .btn-submit:hover {
+    background-color: lightgreen;
+    color: lightseagreen;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container-contacts .text-contacts {
+    padding-top: 2rem;
+  }
+  .container-contacts .input-group {
+    padding-top: 5rem;
+  }
+  .container-contacts .form-label {
+    padding-top: 2rem;
+  }
+  .container-contacts .btn-submit {
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+    color: lightgreen;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .container-contacts .btn-submit:hover {
+    background-color: lightgreen;
+    color: lightseagreen;
+  }
+}
 @media screen and (min-width: 640px) {
   .container-footer {
     background-color: grey;
   }
-  .text-copyright {
+  .container-footer .text-copyright {
     color: lightgreen;
     font-size: 1.5rem;
   }
-  .facebook {
+  .container-footer .facebook {
     font-size: 1.5rem;
   }
-  .instagram {
+  .container-footer .instagram {
     font-size: 1.5rem;
   }
-  .twitter {
+  .container-footer .twitter {
     font-size: 1.5rem;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .container-footer {
     background-color: grey;
   }
-  .text-copyright {
+  .container-footer .text-copyright {
     color: lightgreen;
     font-size: 1.5rem;
   }
-  .facebook {
+  .container-footer .facebook {
     font-size: 1.5rem;
   }
-  .instagram {
+  .container-footer .instagram {
     font-size: 1.5rem;
   }
-  .twitter {
+  .container-footer .twitter {
     font-size: 1.5rem;
   }
 }
-
 @media screen and (min-width: 1440px) {
   .container-footer {
     background-color: grey;
   }
-  .text-copyright {
+  .container-footer .text-copyright {
     color: lightgreen;
     font-size: 1.5rem;
   }
-  .facebook {
+  .container-footer .facebook {
     font-size: 1.5rem;
   }
-  .instagram {
+  .container-footer .instagram {
     font-size: 1.5rem;
   }
-  .twitter {
+  .container-footer .twitter {
     font-size: 1.5rem;
   }
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

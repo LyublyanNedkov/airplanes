@@ -1,5 +1,5 @@
 <template>
-    <div class="container-12 container-footer sticky-bottom">
+    <div class="container-expand container-fluid container-footer sticky-bottom">
         <div class="row">
             <div class="col-sm-4 col-xxl-4 text-center">
                 <a href="https://www.facebook.com/">

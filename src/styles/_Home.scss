@@ -1,37 +1,57 @@
-@media (max-width: 640px) {
-    .ln {
-        text-align: center;
-        font-size: 3rem;
-        width: 100%;
-        color: $green;
-    }
-
-    .icon {
-        width: 100%;
-    }
-}
-
-@media (max-width: 1024px) {
-    .ln {
-        text-align: center;
-        font-size: 5rem;
-        color: $green;
-    }
-
-    .icon {
-        width: 100%;
+@media (min-width: 640px) {
+    .container-home {
+        .ln {
+            font-size: 5rem;
+            color: $green;
+        }
+    
+        .icon {
+            width: 20rem;
+            height: 20rem;
+        }
     }
 }
 
-@media screen and (min-width: 1440px){
-    .ln {
-        text-align: center;
-        font-size: 10rem;
-        width: 100%;
-        color: $green;
+@media (min-width: 1024px) {
+    .container-home {
+        .ln {
+            font-size: 9rem;
+            color: $green;
+        }
+    
+        .icon {
+            width: 30rem;
+            height: 30rem;
+        }
     }
+}
 
-    .icon {
-        width: 100%;
+@media screen and (min-width: 1440px) {
+    .container-home {
+        .ln {
+            font-size: 11rem;
+            color: $green;
+        }
+    
+        .icon {
+            width: 30rem;
+            height: 30rem;
+        }
+
+        .audi-text {
+            font-family: 'Roboto';
+            font-size: 6rem;
+            margin-top: 3rem;
+            text-decoration: none;
+            color: black;
+        }
+
+        .audi-text:hover {
+            color: red;
+        }
+
+        .audi-img {
+            margin-bottom: 3rem;
+        }
     }
 }

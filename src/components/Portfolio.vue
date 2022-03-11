@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="container">
-            <div class="row">
+        <div class="container container-portfolio">
+            <div class="row text-center">
                 <div class="col">                   
                     <img class="pic" src="../assets/pic1.jpg" alt="pic">
                 </div>
@@ -74,9 +74,6 @@
 </script>
 
 <style scoped>  
- 
+
 </style>
 
- 
-
-    

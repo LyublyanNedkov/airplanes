@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="container-header">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="row-5 container-fluid">
-                <router-link class="col-xxl-2 btnD" to="/" tag="p">LN Photography</router-link>
+                <router-link class="col-xxl-2 col-md-2 col-sm-2 btnD" to="/" tag="p">LN Photography</router-link>
                 <button class="navbar-toggler" 
                         type="button" 
                         data-bs-toggle="collapse" 
@@ -14,13 +14,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <li class="nav-item col-xxl-3 col-md-3">
                             <router-link class="btnA" to="Portfolio">Portfolio</router-link>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item col-xxl-3 col-md-3">
                             <router-link class="btnB" to="Courses">Courses</router-link>
                         </li>                       
-                        <li class="nav-item">
+                        <li class="nav-item col-xxl-3 col-md-3">
                             <router-link class="btnC" to="Contacts">Contacts</router-link>
                         </li>
                     </ul>
