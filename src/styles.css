@@ -575,4 +575,47 @@
   .container-footer .twitter {
     font-size: 1.5rem;
   }
+}
+@media screen and (min-width: 1440px) {
+  .container-audi {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .container-audi .my-row {
+    padding-top: 3rem;
+  }
+  .container-audi .my-row2 {
+    padding-top: 3rem;
+  }
+  .container-audi .card-header {
+    font-size: 2rem;
+  }
+  .container-audi .btn-a {
+    color: white;
+    text-decoration: none;
+  }
+  .container-audi .bg-my {
+    background-color: grey;
+  }
+  .container-audi .img-a {
+    width: 16rem;
+    height: 16rem;
+  }
+  .container-audi h5 {
+    font-size: 1.5rem;
+  }
+  .container-audi .card-title {
+    color: white;
+  }
+  .container-audi .card-text {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    color: white;
+  }
+  .container-audi .my-col {
+    width: 20rem;
+  }
+}
+.par {
+  color: green;
 }/*# sourceMappingURL=styles.css.map */
