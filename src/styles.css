@@ -578,7 +578,7 @@
 }
 @media screen and (min-width: 1440px) {
   .container-audi {
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding-bottom: 3rem;
   }
   .container-audi .my-row {
@@ -594,8 +594,11 @@
     color: white;
     text-decoration: none;
   }
+  .container-audi .btn-a:hover {
+    color: lightgreen;
+  }
   .container-audi .bg-my {
-    background-color: grey;
+    background-color: purple;
   }
   .container-audi .img-a {
     width: 16rem;
@@ -615,7 +618,23 @@
   .container-audi .my-col {
     width: 20rem;
   }
+  .container-audi .audi-menu {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: green;
+  }
+  .container-audi .audi-menu:hover {
+    color: lightgreen;
+  }
+  .container-audi .btn-shopcart {
+    text-decoration: none;
+    font-size: 2rem;
+  }
 }
+.par {
+  color: green;
+}
+
 .par {
   color: green;
 }/*# sourceMappingURL=styles.css.map */

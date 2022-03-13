@@ -1,10 +1,15 @@
 <template>
     <div class="container container-audi">
-        <div class="row justify-content-center text-center my-row">
+        <div class="row justify-content-center text-center my-row1">
+            <div class="col col-xxl-3 text-center my-col">
+                <button class="btn-shopcart">Shopping cart</button>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center my-row2">
             <div class="col col-xxl-3 text-center my-col">
                 <div class="card text-white bg-primary mb-3">
                     <div class="card-header">
-                        <router-link class="btn-engine btn-a" to="Engine">Engine</router-link>
+                        <router-link class="btn-engine btn-a" to="/Audi/Engine">Engine</router-link>
                     </div>
                     <div class="card-body">
                         <img class="img-engine img-a" src="../assets/Engine.jpg" alt="engine">
@@ -56,7 +61,7 @@
                     </div>
                 </div>
             </div>
-        <div class="row justify-content-center text-center my-row2">
+        <div class="row justify-content-center text-center my-row3">
             <div class="col col-xxl-3 text-center my-col">
                 <div class="card text-white bg-warning mb-3">
                     <div class="card-header">
@@ -115,15 +120,13 @@
             </div>
         </div>           
         </div>
+        <router-view />
     </div>
 </template>
 
 <script>
-    import Engine from './Audi/Engine.vue'
-
     export default {
         name: 'Audi',
-        components: Engine,
     }
 </script>
 
