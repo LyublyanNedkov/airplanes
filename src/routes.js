@@ -2,6 +2,7 @@ import Home from './components/Home.vue'
 import Portfolio from './components/Portfolio.vue'
 import Courses from './components/Courses.vue'
 import Contacts from './components/Contacts.vue'
+import ShoppingCart from './components/ShoppingCart.vue'
 import Audi from './components/Audi.vue'
 import Engine from './components/Audi/Engine.vue'
 import Gearbox from './components/Audi/Gearbox.vue'
@@ -17,6 +18,7 @@ export const routes = [
     { path: '/Portfolio', component: Portfolio },
     { path: '/Courses', component: Courses },
     { path: '/Contacts', component: Contacts },
+    { path: '/ShoppingCart', component: ShoppingCart },
     { 
         path: '/Audi',
         name: 'Audi general',
