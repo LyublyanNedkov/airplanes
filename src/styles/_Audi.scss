@@ -1,14 +1,13 @@
 @media screen and (min-width: 1440px) {
     .container-audi {
-        // padding-top: 5rem;
         padding-bottom: 3rem;
 
         .my-row1 {
-            padding-top: 3rem;
+            padding-top: 1rem;
         }
 
         .my-row2 {
-            padding-top: 3rem;
+            padding-top: -1rem;
         }
 
         .card-header {
@@ -64,6 +63,23 @@
         .btn-shopcart {
             text-decoration: none;
             font-size: 2rem;
+        }
+
+        .fade-enter {
+            opacity: 0;
+        }
+
+        .fade-enter-active {
+            transition: opacity 3s;
+        }
+
+        .fade-leave {
+            opacity: 0;
+        }
+
+        .fade-leave-active {
+            transition: opacity 3s;
+            opacity: 0;
         }
     }
 }

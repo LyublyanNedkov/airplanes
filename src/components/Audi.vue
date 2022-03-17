@@ -124,20 +124,5 @@
 </script>
 
 <style scoped>
-            .fade-enter {
-            opacity: 0;
-        }
 
-        .fade-enter-active {
-            transition: opacity 3s;
-        }
-
-        .fade-leave {
-            /* opacity: 0; */
-        }
-
-        .fade-leave-active {
-            transition: opacity 3s;
-            opacity: 0;
-        }
 </style>

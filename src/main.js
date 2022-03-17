@@ -13,7 +13,7 @@ Vue.use(VueResource);
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 
-Vue.http.options.root = 'https://airplanes-876f6-default-rtdb.europe-west1.firebasedatabase.app/';
+Vue.http.options.root = 'https://airplanes-876f6-default-rtdb.europe-west1.firebasedatabase.app/data.json';
 
 const router = new VueRouter({
     mode: 'history',   
