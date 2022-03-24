@@ -15,16 +15,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item col-xxl-1 col-md-1">
-                            <router-link class="btnA" to="Portfolio">Portfolio</router-link>
+                            <router-link class="btnA" to="/Portfolio">Portfolio</router-link>
                         </li>
                         <li class="nav-item col-xxl-1 col-md-1">
-                            <router-link class="btnB" to="Courses">Courses</router-link>
+                            <router-link class="btnB" to="/Courses">Courses</router-link>
                         </li>                       
                         <li class="nav-item col-xxl-1 col-md-1">
-                            <router-link class="btnC" to="Contacts">Contacts</router-link>
+                            <router-link class="btnC" to="/Contacts">Contacts</router-link>
                         </li>
                         <li class="nav-item col-xxl-5 col-md-5 text-center">
-                            <router-link class="btnE" to="ShoppingCart">Shopping Cart</router-link>
+                            <router-link class="btnE" to="/ShoppingCart">Shopping Cart</router-link>
                         </li>
                     </ul>
                 </div>

@@ -79,10 +79,10 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header">RS5</div>
+                        <div class="card-header">{{ rs5Name }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS5.jpg" alt="engine">
-                            <button class="btn btn-primary btn-cart" @click="addToCart(product)">ADD TO CART</button>
+                            <button class="btn btn-primary btn-cart" @click="addToCart(rs5Name)">ADD TO CART</button>
                         </div>
                     </div>
                 </transition>
@@ -90,10 +90,10 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header">RS8</div>
+                        <div class="card-header">{{ rs8.name }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS8.jpg" alt="engine">
-                            <button class="btn btn-primary btn-cart" @click="addToCart(product)">ADD TO CART</button>
+                            <button class="btn btn-primary btn-cart" @click="addToCart(rs8)">ADD TO CART</button>
                         </div>
                     </div>
                 </transition>
@@ -105,48 +105,16 @@
 <script>
     export default {
         name: 'Engine',
-        data: () => {
+        data() {
             return {
-                cart: [],
-                products: [
-                    {
-                        name: 'RS7',
-                        cost: '20000$'
-                    },
-                    {
-                        name: 'RS6-Avant',
-                        cost: '25000$'
-                    },
-                    {
-                        name: 'RS6',
-                        cost: '23000$'
-                    },
-                    {
-                        name: 'RS4-Avant',
-                        cost: '22000$'
-                    },
-                    {
-                        name: 'RS4',
-                        cost: '21000$'
-                    },
-                    {
-                        name: 'RS3',
-                        cost: '19000$'
-                    },
-                    {
-                        name: 'RS5',
-                        cost: '18000$'
-                    },
-                    {
-                        name: 'RS8',
-                        cost: '30000$'
-                    },
-                ]
+                rs8: { name: 'RS8', cost: 3 },
+                rs5Name: 'RS5'
             }
         },
         methods: {
-            addToCart(product) {
-                this.cart.push(product);
+            addToCart(value) {
+                this.$store.state.productName = value.name;
+                this.$store.state.productCost = value.cost
             }
         }
     }

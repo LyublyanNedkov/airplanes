@@ -49,7 +49,7 @@
     font-size: 1.5rem;
     color: lightgreen;
     text-decoration: none;
-    padding-left: 1rem;
+    margin-left: 1rem;
   }
 
   .btnA:hover {
@@ -60,7 +60,7 @@
     font-size: 1.5rem;
     color: lightgreen;
     text-decoration: none;
-    padding-left: 1rem;
+    margin-left: 1rem;
   }
 
   .btnB:hover {
@@ -71,7 +71,7 @@
     font-size: 1.5rem;
     color: lightgreen;
     text-decoration: none;
-    padding-left: 1rem;
+    margin-left: 1rem;
   }
 
   .btnC:hover {
@@ -82,8 +82,8 @@
     font-size: 2rem;
     color: lightgreen;
     text-decoration: none;
-    padding-left: 1rem;
-    padding-top: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
     cursor: pointer;
   }
 
@@ -96,7 +96,7 @@
     font-size: 2rem;
     color: lightgreen;
     text-decoration: none;
-    padding-left: 3rem;
+    margin-left: 3rem;
   }
   .container-header .btnA:hover {
     color: lightseagreen;
@@ -105,7 +105,7 @@
     font-size: 2rem;
     color: lightgreen;
     text-decoration: none;
-    padding-left: 8rem;
+    margin-left: 8rem;
   }
   .container-header .btnB:hover {
     color: lightseagreen;
@@ -114,7 +114,7 @@
     font-size: 2rem;
     color: lightgreen;
     text-decoration: none;
-    padding-left: 12.5rem;
+    margin-left: 12.5rem;
   }
   .container-header .btnC:hover {
     color: lightseagreen;
@@ -123,8 +123,8 @@
     font-size: 2.5rem;
     color: lightgreen;
     text-decoration: none;
-    padding-left: 1rem;
-    padding-top: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
     cursor: pointer;
   }
   .container-header .btnD:hover {
@@ -134,7 +134,7 @@
     font-size: 2rem;
     color: lightgreen;
     text-decoration: none;
-    padding-left: 17rem;
+    margin-left: 17rem;
   }
   .container-header .btnE:hover {
     color: lightseagreen;
@@ -214,7 +214,7 @@
     transform: translate(1.1);
   }
   .container-portfolio .col {
-    padding: 0.3rem;
+    margin: 0.3rem;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -231,7 +231,7 @@
     transform: translate(1.1);
   }
   .container-portfolio .col {
-    padding: 0.3rem;
+    margin: 0rem;
   }
 }
 @media screen and (min-width: 640px) {
@@ -461,13 +461,13 @@
 }
 @media screen and (min-width: 640px) {
   .container-contacts .text-contacts {
-    padding-top: 2rem;
+    margin-top: 2rem;
   }
   .container-contacts .input-group {
-    padding-top: 5rem;
+    margin-top: 5rem;
   }
   .container-contacts .form-label {
-    padding-top: 2rem;
+    margin-top: 2rem;
   }
   .container-contacts .btn-submit {
     border: none;
@@ -485,13 +485,13 @@
 }
 @media screen and (min-width: 1024px) {
   .container-contacts .text-contacts {
-    padding-top: 2rem;
+    margin-top: 2rem;
   }
   .container-contacts .input-group {
-    padding-top: 5rem;
+    margin-top: 5rem;
   }
   .container-contacts .form-label {
-    padding-top: 2rem;
+    margin-top: 2rem;
   }
   .container-contacts .btn-submit {
     border: none;
@@ -509,13 +509,13 @@
 }
 @media screen and (min-width: 1440px) {
   .container-contacts .text-contacts {
-    padding-top: 2rem;
+    margin-top: 2rem;
   }
   .container-contacts .input-group {
-    padding-top: 5rem;
+    margin-top: 5rem;
   }
   .container-contacts .form-label {
-    padding-top: 2rem;
+    margin-top: 2rem;
   }
   .container-contacts .btn-submit {
     border: none;
@@ -587,13 +587,13 @@
 }
 @media screen and (min-width: 1440px) {
   .container-audi {
-    padding-bottom: 3rem;
+    margin-bottom: 3rem;
   }
   .container-audi .my-row1 {
-    padding-top: 1rem;
+    margin-top: 1rem;
   }
   .container-audi .my-row2 {
-    padding-top: -1rem;
+    margin-top: -1rem;
   }
   .container-audi .card-header {
     font-size: 2rem;
@@ -620,7 +620,7 @@
   }
   .container-audi .card-text {
     font-size: 1.3rem;
-    padding-top: 1rem;
+    margin-top: 1rem;
     color: white;
   }
   .container-audi .my-col {
