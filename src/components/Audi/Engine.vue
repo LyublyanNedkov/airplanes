@@ -122,7 +122,7 @@
     export default {
         name: 'Engine',
         data() {
-            return {
+            return {               
                 engines: [
                     { id: 1, name: 'RS7', price: 5000 },
                     { id: 2, name: 'RS6-Avant', price: 4000 },
@@ -140,10 +140,10 @@
                 this.$store.state.productName = value.name;
                 this.$store.state.productCost = value.cost
             }
-        }
+        },     
     }
 </script>
 
 <style scoped>
-/* v-for="engine in engines" :key="engine" :ShoppingCart="ShoppingCart" */
+
 </style>
