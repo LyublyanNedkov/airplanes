@@ -109,7 +109,7 @@
                             <img class="img-engine img-a" src="../../assets/RS8.jpg" alt="engine">
                             <input type="number" class="form-control" placeholder="Quantity">
                             <br>
-                            <button class="btn btn-primary btn-cart" @click="addToCart(rs8)">ADD TO CART</button>
+                            <button class="btn btn-primary btn-cart" @click="addToMyCart(rs8)">ADD TO CART</button>
                         </div>
                     </div>
                 </transition>
@@ -123,22 +123,12 @@
         name: 'Engine',
         data() {
             return {               
-                engines: [
-                    { id: 1, name: 'RS7', price: 5000 },
-                    { id: 2, name: 'RS6-Avant', price: 4000 },
-                    { id: 3, name: 'RS6', price: 6000 },
-                    { id: 4, name: 'RS4-Avant', price: 7000 },
-                    { id: 5, name: 'RS4', price: 3000 },
-                    { id: 6, name: 'RS3', price: 8000 },
-                    { id: 7, name: 'RS5', price: 9000 },
-                    { id: 8, name: 'RS8', price: 2000 },
-                ],
+                
             }
         },
         methods: {
-            addToCart(value) {
-                this.$store.state.productName = value.name;
-                this.$store.state.productCost = value.cost
+            addToCart() {
+                this.$emit('add-to-cart')
             }
         },     
     }

@@ -3,7 +3,7 @@
         <div id="appSC">
             <div class="nav-bar"></div>
 
-            <div class="cart">Cart({{ cart }})</div>
+            <div class="cart" :premium="premium" @add-to-cart="updateCart">Cart({{ cart.length }})</div>
 
             <div class="product-display">
                 <div class="product-container">
@@ -18,18 +18,43 @@
                         <ul>
                             <li v-for="detail in details" :key="detail">{{ detail }}</li>
                         </ul>
-                        <div v-for="variant in variants" 
+                        <div v-for="(variant, index) in variants" 
                             :key="variant.id" 
-                            @mouseover="updateImage(variant.image)"
+                            @mouseover="updateVariant(index)"
                             class="color-circle"
                             :style="{ backgroundColor: variant.color }">
                         </div>
+                        <p>Shipping: {{ shipping }}</p>
                         <button class="button" 
                                 :class="{ disabledButton: !inStock }"
-                                @click="addToMyCart"
-                                :disabled="!inStock">
+                                @click="addToMyCart">
                                 Add to cart
                         </button>
+                        <br>
+                        <form action="submit" class="review-form" @submit.prevent="onSubmit">
+                            <h3>Leave a review</h3>
+                            <label for="name">Name:</label>
+                            <input id="name" v-model="name">
+
+                            <label for="review">Review:</label>
+                            <textarea id="review" v-model="review"></textarea>
+
+                            <label for="rating">Rating:</label>
+                            <select id="rating" v-model.number="rating">
+                                <option>5</option>
+                                <option>4</option>
+                                <option>3</option>
+                                <option>2</option>
+                                <option>1</option>
+                            </select>
+                        </form>
+                        <ul v-for="engine in engines" :key="engine">
+                            <li>{{ engine.id }} {{ engine.name }} {{ engine.price }}$</li>
+                        </ul>
+                        <div v-for="engine in engines" 
+                            :key="engine">
+                            {{ engine.id }} {{ engine.name }} {{ engine.price }}$
+                        </div>
                     </div>
                 </div>
             </div>
@@ -62,6 +87,18 @@
             title() {
                 return this.brand + ' ' + this.product
             },
+            image() {
+                return this.variants[this.selectedVariant].image
+            },
+            inStock() {
+                return this.variants[this.selectedVariant].quantity
+            },
+            shipping() {
+                if (this.premium) {
+                    return 'Free'
+                }
+                return 2.99
+            },
         },
         methods: {
             ...mapActions([
@@ -72,13 +109,16 @@
                 this.$store.dispatch('updateValue', event.target.value);
             },
             addToCart(type) {
-                this.cart[type] += this.inventory[type]
+                this.$emit('add-to-cart', this.variants[this.selectedVariant].id)
             },
-            addToMyCart() {
+            updateCart(id) {
+                this.cart.push(id)
+            },
+            addToMyCart(type) {
                 this.cart += 1
             },
-            updateImage(variantImage) {
-                this.image = variantImage
+            updateVariant(index) {
+                this.selectedVariant = index
             },
         },
         data() {
@@ -88,19 +128,40 @@
                     RS6: 0,
                     RS8: 0,
                 },
-                cart: 0,
+                cart: [],
+                image: '../assets/RS8.jpg',
+                premium: true,
                 product: 'Engines',
                 brand: 'AUDI',
-                image: '../assets/RS8.jpg',
+                selectedVariant: 0,
                 inventory: 100,
                 details: ['50% cotton', '30% wool', '20% polyester'],
                 variants: [
                     { id: 2234, color: 'green', image: '../assets/RS8.jpg', quantity: 50},
-                    { id: 2235, color: 'blue', image: '../assets/RS3.jpg', quantity: 0},
+                    { id: 2235, color: 'blue', image: '../assets/RS3.jpg', quantity: 50},
+                ],
+                name: '',
+                review: '',
+                rating: null,
+                engines: [
+                    { id: 1, name: 'RS7', price: 5000 },
+                    { id: 2, name: 'RS6-Avant', price: 4000 },
+                    { id: 3, name: 'RS6', price: 6000 },
+                    { id: 4, name: 'RS4-Avant', price: 7000 },
+                    { id: 5, name: 'RS4', price: 3000 },
+                    { id: 6, name: 'RS3', price: 8000 },
+                    { id: 7, name: 'RS5', price: 9000 },
+                    { id: 8, name: 'RS8', price: 2000 },
                 ],
             } 
         },
-        props: ['ShoppingCart'],
+        props: {
+            premium: {
+                type: Boolean,
+                required: true,
+            },
+            shoppingCart: ['ShoppingCart'],
+        },
     }
 </script>
 
