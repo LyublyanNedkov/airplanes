@@ -119,18 +119,24 @@
 </template>
 
 <script>
+    // import { bus } from '../main';
+
     export default {
         name: 'Engine',
         data() {
-            return {               
+            return {
                 
             }
         },
+        props: [],
         methods: {
             addToCart() {
                 this.$emit('add-to-cart')
             }
-        },     
+        },   
+        created() {
+            bus.$on('dynheader')
+        },
     }
 </script>
 

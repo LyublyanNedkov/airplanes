@@ -55,6 +55,13 @@
                             :key="engine">
                             {{ engine.id }} {{ engine.name }} {{ engine.price }}$
                         </div>
+                        <br>
+                        <button @click="error = !error">Toggle error</button>
+                        <button @click="success = !success">Toggle Success</button>
+                        <p v-if="error">Error!</p>
+                        <p v-else-if="success">Success!</p>
+                        <!-- <p v-show="error">Error!</p>
+                        <p v-show="success">Success!</p> -->
                     </div>
                 </div>
             </div>
@@ -65,6 +72,7 @@
 <script>
     import { mapGetters } from 'vuex';
     import { mapActions } from 'vuex';
+    // import { bus } from '../main';
 
     export default {
         name: 'ShoppingCart',
@@ -110,6 +118,7 @@
             },
             addToCart(type) {
                 this.$emit('add-to-cart', this.variants[this.selectedVariant].id)
+                // bus.$emit('dynheader')
             },
             updateCart(id) {
                 this.cart.push(id)
@@ -153,6 +162,8 @@
                     { id: 7, name: 'RS5', price: 9000 },
                     { id: 8, name: 'RS8', price: 2000 },
                 ],
+                error: false,
+                success: false,
             } 
         },
         props: {
