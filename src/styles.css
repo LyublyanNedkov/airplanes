@@ -34,10 +34,14 @@
   }
 
   .btnD {
-    font-size: 2rem;
-    color: lightgreen;
-    text-decoration: none;
     cursor: pointer;
+  }
+
+  .audi_logo {
+    width: 6rem;
+    height: 4rem;
+    padding-bottom: 0.4rem;
+    margin-top: -1rem;
   }
 
   .btnD:hover {
@@ -593,7 +597,7 @@
     margin-top: 1rem;
   }
   .container-audi .my-row2 {
-    margin-top: -1rem;
+    margin-top: 0.1rem;
   }
   .container-audi .card-header {
     font-size: 2rem;
@@ -664,9 +668,6 @@
 .container-engine .fade-leave-active {
   transition: opacity 3s;
   opacity: 0;
-}
-.container-engine .card-header {
-  background-color: lightskyblue;
 }
 
 .par {

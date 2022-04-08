@@ -2,7 +2,9 @@
     <div class="container-header">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="row-5 container-fluid">
-                <router-link class="col-xxl-2 col-md-2 col-sm-2 btnD" to="/" tag="p">LN Photography</router-link>
+                <router-link to="/" class="col-xxl-2 col-md-2 col-sm-2 btnD">
+                    <img src="../assets/Audi_logo.jpg" alt="logo" class="audi_logo">
+                </router-link>
                 <button class="navbar-toggler" 
                         type="button" 
                         data-bs-toggle="collapse" 

@@ -30,10 +30,14 @@
     }
 
     .btnD {
-        font-size: 2rem;
-        color: $lightgreen;
-        text-decoration: none;
         cursor: pointer;
+    }
+
+    .audi_logo {
+        width: 6rem;
+        height: 4rem;
+        padding-bottom: 0.4rem;
+        margin-top: -1rem;
     }
 
     .btnD:hover {
