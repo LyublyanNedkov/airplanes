@@ -1,75 +1,93 @@
 <template>
-    <div>
-        <div class="container container-portfolio">
-            <div class="row text-center">
-                <div class="col">                   
-                    <img class="pic" src="../assets/pic1.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic2.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic3.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic4.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic5.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic6.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic7.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic8.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic9.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic10.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic11.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic12.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic13.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic14.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic15.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic16.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic17.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic18.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic19.jpg" alt="pic">
-                </div>
-                <div class="col">
-                    <img class="pic" src="../assets/pic20.jpg" alt="pic">
-                </div>
+    <div class="container container-audi">
+        <div class="row justify-content-center text-center my-row1">
+            <div class="col col-xxl-3 text-center my-col">
+                <transition name="fade" appear="">
+                    <div class="card text-white bg-primary mb-3">
+                        <div class="card-header">
+                            <router-link class="btn-engine btn-a" to="/Audi/Engine">Engine</router-link>
+                        </div>
+                    </div>
+                </transition> 
             </div>
+            <div class="col col-xxl-3 text-center my-col">
+                <transition name="fade" appear="">
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header">
+                            <router-link class="btn-gearbox btn-a" to="/Audi/Gearbox">Gearbox</router-link>
+                        </div>
+                    </div>
+                </transition>
+            </div>
+            <div class="col col-xxl-3 text-center my-col">
+                <transition name="fade" appear="">
+                    <div class="card text-white bg-success mb-3">
+                        <div class="card-header">
+                            <router-link class="btn-bodykit btn-a" to="/Audi/Bodykit">Bodykit</router-link>
+                        </div>
+                    </div>
+                </transition>
+            </div>
+            <div class="col col-xxl-3 text-center my-col">
+                <transition name="fade" appear="">
+                    <div class="card text-white bg-danger mb-3">
+                        <div class="card-header">
+                            <router-link class="btn-wheels btn-a" to="/Audi/Wheels">Wheels</router-link>
+                        </div>
+                    </div>
+                </transition>
+            </div>
+        <div class="row justify-content-center text-center my-row2">
+            <div class="col col-xxl-3 text-center my-col">
+                <transition name="fade" appear="">
+                    <div class="card text-white bg-warning mb-3">
+                        <div class="card-header">
+                            <router-link class="btn-breaks btn-a" to="/Audi/Breaks">Breaks</router-link>
+                        </div>
+                    </div>
+                </transition>
+            </div>
+            <div class="col col-xxl-3 text-center my-col">
+                <transition name="fade" appear="">
+                    <div class="card text-white bg-info mb-3">
+                        <div class="card-header">
+                            <router-link class="btn-suspension btn-a" to="/Audi/Suspension">Suspension</router-link>
+                        </div>
+                    </div>
+                </transition>
+            </div>
+            <div class="col col-xxl-3 text-center my-col">
+                <transition name="fade" appear="">
+                    <div class="card bg-my mb-3">
+                        <div class="card-header">
+                            <router-link class="btn-turbocharger btn-a" to="/Audi/Turbocharger">Turbocharger</router-link>
+                        </div>
+                    </div>
+                </transition>
+            </div>
+            <div class="col col-xxl-3 text-center my-col">
+                <transition name="fade" appear="">
+                    <div class="card text-white bg-dark mb-3">
+                        <div class="card-header">
+                            <router-link class="btn-exhaust btn-a" to="/Audi/Exhaust">Exhaust system</router-link>
+                        </div>
+                    </div>
+                </transition>
+            </div>
+        </div>           
         </div>
+        <router-view />
     </div>
 </template>
 
 <script>
     export default {
         name: 'Portfolio',
+        data() {
+            return {
+                show: false
+            }
+        }
     }
 </script>
 
