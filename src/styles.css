@@ -165,26 +165,46 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .container-home .ln {
-    font-size: 11rem;
-    color: green;
+  .container-home .audi_garage {
+    font-family: "Bebas Neue", cursive;
+    font-size: 15rem;
   }
-  .container-home .icon {
-    width: 30rem;
-    height: 30rem;
+  .container-home .audi_pic {
+    width: 40rem;
+    height: 40rem;
+    margin-top: -4rem;
   }
-  .container-home .audi-text {
-    font-family: "Roboto";
+  .container-home .welcome_text {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+  .container-home .welcome_img {
+    width: 40rem;
+    height: 40rem;
+  }
+  .container-home .history_text,
+.container-home .history_text_description {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3rem;
+  }
+  .container-home .history_text,
+.container-home .team_text_our {
+    font-family: "Bebas Neue", cursive;
     font-size: 6rem;
     margin-top: 3rem;
-    text-decoration: none;
-    color: black;
   }
-  .container-home .audi-text:hover {
-    color: red;
+  .container-home .team_text {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3rem;
+    margin-top: 3rem;
   }
-  .container-home .audi-img {
-    margin-bottom: 3rem;
+  .container-home .Tom_Holland_pic,
+.container-home .Robert_Downey_Jr,
+.container-home .Scarlet_Johansson_pic {
+    width: 20rem;
+    height: 24rem;
+    margin-bottom: 2rem;
   }
 }
 @media screen and (min-width: 640px) {

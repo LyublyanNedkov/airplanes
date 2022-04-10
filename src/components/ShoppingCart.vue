@@ -7,9 +7,6 @@
 
             <div class="product-display">
                 <div class="product-container">
-                    <div class="product-image">
-                        <img :src="image" alt="pic">
-                    </div>
                     <div class="product-info">
                         <h1>{{ title }}</h1>
                         <p v-if="inventory > 10">In stock</p>
@@ -138,7 +135,6 @@
                     RS8: 0,
                 },
                 cart: [],
-                image: '../assets/RS8.jpg',
                 premium: true,
                 product: 'Engines',
                 brand: 'AUDI',
