@@ -69,7 +69,7 @@
                 <transition name="fade" appear="">
                     <div class="card text-white bg-dark mb-3">
                         <div class="card-header">
-                            <router-link class="btn-exhaust btn-a" to="/Audi/Exhaust">Exhaust system</router-link>
+                            <router-link class="btn-exhaust btn-a" to="/Audi/Exhaust_system">Exhaust system</router-link>
                         </div>
                     </div>
                 </transition>

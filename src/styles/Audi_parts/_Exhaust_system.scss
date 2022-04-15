@@ -1,0 +1,18 @@
+.container-exhaust {
+    .card-header {
+        color: white;
+    }
+
+    .fade-enter-active {
+        transition: opacity 3s;
+    }
+
+    .fade-leave {
+        opacity: 0;
+    }
+
+    .fade-leave-active {
+        transition: opacity 3s;
+        opacity: 0;
+    }
+}

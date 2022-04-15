@@ -1,6 +1,6 @@
 <template>
     <div class="container-expand container-fluid container-footer sticky-bottom">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-sm-4 col-xxl-4 text-center">
                 <a href="https://www.facebook.com/">
                     <box-icon class="facebook" type='logo' name='facebook-square'></box-icon>

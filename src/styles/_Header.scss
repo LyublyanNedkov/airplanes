@@ -1,36 +1,22 @@
 @media screen and (min-width: 640px) {
-    .btnA {
+    .btnProducts {
         font-size: 1rem;
         color: $lightgreen;
         text-decoration: none;
     }
 
-    .btnA:hover {
+    .btnProducts:hover {
         color: $lightseagreen;
     }
 
-    .btnB {
+    .btnContacts {
         font-size: 1rem;
         color: $lightgreen;
         text-decoration: none;
     }
 
-    .btnB:hover {
+    .btnContacts:hover {
         color: $lightseagreen;
-    }
-
-    .btnC {
-        font-size: 1rem;
-        color: $lightgreen;
-        text-decoration: none;
-    }
-
-    .btnC:hover {
-        color: $lightseagreen;
-    }
-
-    .btnD {
-        cursor: pointer;
     }
 
     .audi_logo {
@@ -38,48 +24,34 @@
         height: 4rem;
         padding-bottom: 0.4rem;
         margin-top: -1rem;
-    }
-
-    .btnD:hover {
-        color: $lightseagreen;
+        margin-left: -1rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .btnA {
+    .btnProducts {
         font-size: 1.5rem;
         color: $lightgreen;
         text-decoration: none;
         margin-left: 1rem;
     }
 
-    .btnA:hover {
+    .btnProducts:hover {
         color: $lightseagreen;
     }
 
-    .btnB {
+    .btnContacts {
         font-size: 1.5rem;
         color: $lightgreen;
         text-decoration: none;
         margin-left: 1rem;
     }
 
-    .btnB:hover {
+    .btnContacts:hover {
         color: $lightseagreen;
     }
 
-    .btnC {
-        font-size: 1.5rem;
-        color: $lightgreen;
-        text-decoration: none;
-        margin-left: 1rem;
-    }
-
-    .btnC:hover {
-        color: $lightseagreen;
-    }
-
-    .btnD {
+    .btnLogo {
         font-size: 2rem;
         color: $lightgreen;
         text-decoration: none;
@@ -88,68 +60,71 @@
         cursor: pointer;
     }
 
-    .btnD:hover {
+    .btnLogo:hover {
         color: $lightseagreen;
+    }
+
+    .audi_logo {
+        width: 6rem;
+        height: 4rem;
+        padding-bottom: 0.4rem;
+        margin-top: -1rem;
+        margin-left: -1rem;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .container-header {
-        .btnA {
+        .btnProducts {
             font-size: 2rem;
             color: $lightgreen;
             text-decoration: none;
-            margin-left: 3rem;
+            // margin-left: -2rem;
         }
     
-        .btnA:hover {
+        .btnProducts:hover {
             color: $lightseagreen;
         }
     
-        .btnB {
+        .btnContacts {
             font-size: 2rem;
             color: $lightgreen;
             text-decoration: none;
-            margin-left: 8rem;
+            // margin-left: 2rem;
         }
     
-        .btnB:hover {
+        .btnContacts:hover {
             color: $lightseagreen;
         }
     
-        .btnC {
-            font-size: 2rem;
-            color: $lightgreen;
-            text-decoration: none;
-            margin-left: 12.5rem;
-        }
-    
-        .btnC:hover {
-            color: $lightseagreen;
-        }
-    
-        .btnD {
+        .btnLogo {
             font-size: 2.5rem;
             color: $lightgreen;
             text-decoration: none;
-            margin-left: 1rem;
-            margin-top: 0.5rem;
-            cursor: pointer;
+            // margin-top: 0.5rem;
         }
     
-        .btnD:hover {
+        .btnLogo:hover {
             color: $lightseagreen;
         }
 
-        .btnE {
+        .btnSC {
             font-size: 2rem;
             color: $lightgreen;
             text-decoration: none;
-            margin-left: 17rem;
+            // margin-left: 15rem;
         }
     
-        .btnE:hover {
+        .btnSC:hover {
             color: $lightseagreen;
+        }
+
+        .audi_logo {
+            width: 6rem;
+            height: 4rem;
+            // padding-bottom: 0.4rem;
+            // margin-top: -1rem;
+            // margin-left: -1rem;
         }
     }
 }
