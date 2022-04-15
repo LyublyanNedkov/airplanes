@@ -1,28 +1,94 @@
 <template>
-    <div class="container-expand container-fluid container-footer sticky-bottom">
-        <div class="row align-items-center">
-            <div class="col-sm-4 col-xxl-4 text-center">
-                <a href="https://www.facebook.com/">
-                    <box-icon class="facebook" type='logo' name='facebook-square'></box-icon>
-                </a>
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-left container-expand container-fluid sticky-bottom">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-success">Audi Garage</h5>
+                    <p>Number one company for original audi parts!</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-success">Distributeurs:</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">AUDI Germany</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">GMBH</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Ren Sport</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-success">Links:</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Bank Account</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Become an Affiliate</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">FAQ</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-success">Contacts:</h5>
+                    <p>
+                        <box-icon name='home'></box-icon>Bulgaria, Sofiq 1000
+                    </p>
+                    <p>
+                        <box-icon name='envelope' ></box-icon>audigarage@gmail.com
+                    </p>
+                    <p>
+                        <box-icon name='phone'></box-icon>+359 888 400 600
+                    </p>
+                    <p>
+                        <box-icon name='printer' ></box-icon>+01 335 633 77
+                    </p>
+                </div>
             </div>
-            <div class="col-sm-4 col-xxl-4 text-center">
-                <a href="https://www.instagram.com/">
-                    <box-icon class="instagram" type='logo' name='instagram-alt'></box-icon>
-                </a>
+            <br class="mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>Copyright ©2022 All rights reserved by:
+                        <a href="#" style="text-decoration: none;">
+                            <strong class="text-success">AUDI Garage</strong>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" class="btn-floating btn-sm text-white">
+                                    <box-icon class="facebook" type='logo' name='facebook-square'></box-icon>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/" class="btn-floating btn-sm text-white">
+                                    <box-icon class="instagram" type='logo' name='instagram-alt'></box-icon>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/?lang=bg" class="btn-floating btn-sm text-white">
+                                    <box-icon class="twitter" type='logo' name='twitter'></box-icon>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/?lang=bg" class="btn-floating btn-sm text-white">
+                                    <box-icon class="linkedin" name='linkedin-square' type='logo'></box-icon>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/?lang=bg" class="btn-floating btn-sm text-white">
+                                    <box-icon class="youtube" type='logo' name='youtube'></box-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4 col-xxl-4 text-center">
-                <a href="https://twitter.com/?lang=bg">
-                    <box-icon class="twitter" type='logo' name='twitter'></box-icon>
-                </a>
-            </div>
-            <div class="row">
-                <div class="text-center">
-                    <p class="text-copyright">© 2022 Copyright: LNPhotography.com</p>
-                </div> 
-            </div>          
-        </div>       
-    </div>                
+        </div>
+    </footer>
 </template>
 
 <script>
