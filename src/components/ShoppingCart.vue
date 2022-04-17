@@ -129,6 +129,7 @@
         },
         data() {
             return {
+                myImage: '../assets/Audi.jpg',
                 inventory: {
                     RS3: 0,
                     RS6: 0,

@@ -1,6 +1,6 @@
 <template>
-    <footer class="bg-dark text-white pt-5 pb-4">
-        <div class="container text-center text-md-left container-expand container-fluid sticky-bottom">
+    <footer class="bg-dark text-white pt-5 pb-4 container-expand container-fluid sticky-bottom my-footer">
+        <div class="container text-center text-md-left">
             <div class="row text-center text-md-left">
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-success">Audi Garage</h5>
@@ -33,16 +33,16 @@
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-success">Contacts:</h5>
                     <p>
-                        <box-icon name='home'></box-icon>Bulgaria, Sofiq 1000
+                        <box-icon name='home' class="icons"></box-icon>Bulgaria, Sofiq 1000
                     </p>
                     <p>
-                        <box-icon name='envelope' ></box-icon>audigarage@gmail.com
+                        <box-icon name='envelope' class="icons"></box-icon>audigarage@gmail.com
                     </p>
                     <p>
-                        <box-icon name='phone'></box-icon>+359 888 400 600
+                        <box-icon name='phone' class="icons"></box-icon>+359 888 400 600
                     </p>
                     <p>
-                        <box-icon name='printer' ></box-icon>+01 335 633 77
+                        <box-icon name='printer' class="icons"></box-icon>+01 335 633 77
                     </p>
                 </div>
             </div>

@@ -1,7 +1,3 @@
-.navbar {
-  background-color: grey;
-}
-
 @media screen and (min-width: 640px) {
   .btnProducts {
     font-size: 1rem;
@@ -59,6 +55,7 @@
     font-size: 2rem;
     color: darkgreen;
     text-decoration: none;
+    margin-left: -2rem;
   }
   .container-header .btnProducts:hover {
     color: green;
@@ -67,6 +64,7 @@
     font-size: 2rem;
     color: darkgreen;
     text-decoration: none;
+    margin-left: 0.5rem;
   }
   .container-header .btnContacts:hover {
     color: green;
@@ -75,6 +73,7 @@
     font-size: 2rem;
     color: darkgreen;
     text-decoration: none;
+    margin-left: 2.5rem;
   }
   .container-header .btnSC:hover {
     color: green;
@@ -493,6 +492,11 @@
   .container-contacts .btn-submit:hover {
     background-color: lightgreen;
     color: lightseagreen;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .my-footer {
+    margin-top: 14.1%;
   }
 }
 @media screen and (min-width: 1440px) {

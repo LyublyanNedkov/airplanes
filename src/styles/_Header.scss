@@ -22,9 +22,6 @@
     .audi_logo {
         width: 6rem;
         height: 4rem;
-        // padding-bottom: 0.4rem;
-        // margin-top: -1rem;
-        // margin-left: -1rem;
     }
 }
 
@@ -51,25 +48,9 @@
         color: $green;
     }
 
-    // .btnLogo {
-    //     font-size: 2rem;
-    //     color: $lightgreen;
-    //     text-decoration: none;
-    //     // margin-left: 1rem;
-    //     // margin-top: 0.5rem;
-    //     // cursor: pointer;
-    // }
-
-    // .btnLogo:hover {
-    //     color: $lightseagreen;
-    // }
-
     .audi_logo {
         width: 6rem;
         height: 4rem;
-        // padding-bottom: 0.4rem;
-        // margin-top: -1rem;
-        // margin-left: -1rem;
     }
 }
 
@@ -79,7 +60,7 @@
             font-size: 2rem;
             color: $darkgreen;
             text-decoration: none;
-            // margin-left: -2rem;
+            margin-left: -2rem;
         }
     
         .btnProducts:hover {
@@ -90,29 +71,18 @@
             font-size: 2rem;
             color: $darkgreen;
             text-decoration: none;
-            // margin-left: 2rem;
+            margin-left: 0.5rem;
         }
     
         .btnContacts:hover {
             color: $green;
         }
-    
-        // .btnLogo {
-        //     // font-size: 2.5rem;
-        //     color: $lightgreen;
-        //     text-decoration: none;
-        //     // margin-top: 0.5rem;
-        // }
-    
-        // .btnLogo:hover {
-        //     color: $lightseagreen;
-        // }
 
         .btnSC {
             font-size: 2rem;
             color: $darkgreen;
             text-decoration: none;
-            // margin-left: 15rem;
+            margin-left: 2.5rem;
         }
     
         .btnSC:hover {
@@ -122,9 +92,7 @@
         .audi_logo {
             width: 6rem;
             height: 4rem;
-            // padding-bottom: 0.4rem;
-            // margin-top: -1rem;
-            // margin-left: -1rem;
         }
     }
 }
+

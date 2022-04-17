@@ -53,15 +53,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col col-xxl-10 col-lg-10 col-sm-10 text-center">
-                <button class="btn-submit" type="submit" @click="submit">Submit text</button>              
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col col-xxl-10 col-lg-10 col-sm-10 text-center">
-                <button class="btn-submit" type="submit" @click="fetchData">Get Data</button>        
-                <ul class="list-group">
-                    <li class="list-group-item" v-for="u in users" v-bind:key="u">{{ u.username }} - {{ u.email }}</li>
-                </ul>
+                <button class="btn-submit" type="submit" @click="submit">Submit</button>              
             </div>
         </div>
     </div>    
