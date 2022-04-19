@@ -71,10 +71,21 @@
             font-size: 2rem;
             color: $darkgreen;
             text-decoration: none;
-            margin-left: 0.5rem;
+            // margin-left: 0.1rem;
         }
     
         .btnContacts:hover {
+            color: $green;
+        }
+
+        .btnLogIn {
+            font-size: 2rem;
+            color: $darkgreen;
+            text-decoration: none;
+            margin-left: 2rem;
+        }
+    
+        .btnLogIn:hover {
             color: $green;
         }
 

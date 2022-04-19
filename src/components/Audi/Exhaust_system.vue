@@ -4,7 +4,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header card-color bg-dark">A4</div>
+                        <div class="card-header card-color bg-dark">{{ list.A4Exhaust }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/A4Exhaust.jpg" alt="engine">
                             <p>Price: {{ price.A4Exhaust }}$</p>
@@ -19,7 +19,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-dark">A7</div>
+                        <div class="card-header bg-dark">{{ list.A7Exhaust }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/A7Exhaust.jpg" alt="engine">
                             <p>Price: {{ price.A7Exhaust }}$</p>
@@ -34,7 +34,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-dark">B8</div>
+                        <div class="card-header bg-dark">{{ list.B8Exhaust }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/B8Exhaust.jpg" alt="engine">
                             <p>Price: {{ price.B8Exhaust }}$</p>
@@ -49,7 +49,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-dark">R8</div>
+                        <div class="card-header bg-dark">{{ list.R8Exhaust }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/R8Exhaust.jpg" alt="engine">
                             <p>Price: {{ price.R8Exhaust }}$</p>
@@ -66,7 +66,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-dark">S3</div>
+                        <div class="card-header bg-dark">{{ list.S3Exhaust }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/S3Exhaust.jpg" alt="engine">
                             <p>Price: {{ price.S3Exhaust }}$</p>
@@ -81,7 +81,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-dark">S5</div>
+                        <div class="card-header bg-dark">{{ list.S5Exhaust }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/S5Exhaust.jpg" alt="engine">
                             <p>Price: {{ price.S5Exhaust }}$</p>
@@ -96,7 +96,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-dark">S6</div>
+                        <div class="card-header bg-dark">{{ list.S6Exhaust }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/S6Exhaust.jpg" alt="engine">
                             <p>Price: {{ price.S6Exhaust }}$</p>
@@ -111,7 +111,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-dark">S8</div>
+                        <div class="card-header bg-dark">{{ list.S8Exhaust }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/S8Exhaust.jpg" alt="engine">
                             <p>Price: {{ price.S8Exhaust }}$</p>
@@ -132,6 +132,16 @@ export default {
     name: 'Exhaust_system',
     data() {
             return {
+                list: {
+                    A4Exhaust: 'A4',
+                    A7Exhaust: 'A7',
+                    B8Exhaust: 'B8',
+                    R8Exhaust: 'R8',
+                    S3Exhaust: 'S3',
+                    S5Exhaust: 'S5',
+                    S6Exhaust: 'S6',
+                    S8Exhaust: 'S8'
+                },
                 price: {
                     A4Exhaust: 10000,
                     A7Exhaust: 11000,

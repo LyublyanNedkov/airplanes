@@ -3,8 +3,8 @@
         <div class="row justify-content-center">
             <div class="col col-xxl-10 col-lg-10 col-sm-11 text-center">
                 <div class="text-contacts">
-                    <h1 class="text-contacts-h1">You can contact me if you need aditional information about the
-                                                courses I offer, private events and so on!
+                    <h1 class="text-contacts-h1">You can contact us if you need any aditional information about the
+                                                parts, shipping cost and so on!
                     </h1>
                 </div>
             </div>

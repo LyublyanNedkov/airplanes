@@ -4,7 +4,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header card-color bg-my">El-Turbocharger</div>
+                        <div class="card-header card-color bg-my">{{ list.El_Turbocharger }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/El-Turbocharger.jpg" alt="engine">
                             <p>Price: {{ price.El_Turbocharger }}$</p>
@@ -19,7 +19,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-my">TTE440l</div>
+                        <div class="card-header bg-my">{{ list.TTE440l }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/TTE440l.jpg" alt="engine">
                             <p>Price: {{ price.TTE440l }}$</p>
@@ -34,7 +34,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-my">TTE710</div>
+                        <div class="card-header bg-my">{{ list.TTE710 }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/TTE710.jpg" alt="engine">
                             <p>Price: {{ price.TTE710 }}$</p>
@@ -49,7 +49,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-my">06K145722H</div>
+                        <div class="card-header bg-my">{{ list.A06K145722H }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/06K145722H.jpg" alt="engine">
                             <p>Price: {{ price.A06K145722H }}$</p>
@@ -70,6 +70,12 @@ export default {
     name: 'Turbocharger',
     data() {
             return {
+                list: {
+                    El_Turbocharger: 'El-Turbocharger',
+                    TTE440l: 'TTE440l',
+                    TTE710: 'TTE710',
+                    A06K145722H: 'A06K145722H'
+                },
                 price: {
                     El_Turbocharger: 10000,
                     TTE440l: 11000,

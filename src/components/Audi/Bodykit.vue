@@ -4,7 +4,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header card-color bg-success">Front bumper</div>
+                        <div class="card-header card-color bg-success">{{ list.front_bumper }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/Body_kit3.jpg" alt="engine">
                             <p>Price: {{ price.front_bumper }}$</p>
@@ -19,7 +19,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-success">Hood</div>
+                        <div class="card-header bg-success">{{ list.hood }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/Body_kit1.jpg" alt="engine">
                             <p>Price: {{ price.hood }}$</p>
@@ -34,7 +34,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-success">Rear-bumper</div>
+                        <div class="card-header bg-success">{{ list.rear_bumper }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/Body_kit4.jpg" alt="engine">
                             <p>Price: {{ price.rear_bumper }}$</p>
@@ -49,7 +49,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-success">Side-skirt</div>
+                        <div class="card-header bg-success">{{ list.side_skirt }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/Body_kit2.jpg" alt="engine">
                             <p>Price: {{ price.side_skirt }}$</p>
@@ -70,6 +70,12 @@ export default {
     name: 'Bodykit',
     data() {
             return {
+                list: {
+                    front_bumper: 'Front bumper',
+                    hood: 'Hood',
+                    rear_bumper: 'Rear bumper',
+                    side_skirt: 'Side skirt'
+                },
                 price: {
                     front_bumper: 10000,
                     hood: 11000,

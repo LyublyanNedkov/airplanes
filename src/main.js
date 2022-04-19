@@ -8,6 +8,7 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { store } from './store'
+import { onBeforeMount } from 'vue'
 
 Vue.use(VueRouter);
 Vue.use(VueResource);
@@ -39,3 +40,17 @@ new Vue({
 }).$mount('#app')
 
 export const bus = new Vue();
+
+export default {
+  setup() {
+    onBeforeMount(() => {
+      firebase.auth().onAuthStateChanged((user) => {
+        if (!user) {
+          router.replace('/login');
+        } else if (router.path == "/login" || router.path == "/register") {
+          router.replace('/');
+        }
+      });
+    });
+  }
+}

@@ -23,7 +23,14 @@
                             <router-link class="btnContacts" to="/Contacts">Contacts</router-link>
                         </li>
                         <li class="nav-item col-xxl-4 col-md-1">
-                            <router-link class="btnSC" to="/ShoppingCart"><box-icon name='cart'></box-icon>({{ cart }})</router-link>
+                            <router-link class="btnLogIn" to="/LogIn">Log In</router-link>
+                        </li>
+                        <li class="nav-item col-xxl-4 col-md-1">
+                            <router-link class="btnSC" 
+                                        to="/ShoppingCart"
+                                        @add-to-cart="updateCart">
+                                <box-icon name='cart'></box-icon>({{ cart }})
+                            </router-link>
                         </li>
                     </ul>
                 </div>
@@ -35,6 +42,19 @@
 <script>
     export default {
         name: 'Header',
+        data() {
+            return {
+                cart: 0,
+            }
+        },
+        methods: {
+            updateCart() {
+                this.cart += 1
+            },
+            addToCart() {
+                this.$emit('add-to-cart')
+            }
+        },
     }
 </script>
 

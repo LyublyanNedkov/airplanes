@@ -4,7 +4,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header card-color bg-danger">Audi-rims</div>
+                        <div class="card-header card-color bg-danger">{{ list.audi_rims }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/W1.jpg" alt="engine">
                             <p>Price: {{ price.RS7 }}$</p>
@@ -19,7 +19,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-danger">Audi-rims</div>
+                        <div class="card-header bg-danger">{{ list.audi_rims }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/W2.jpg" alt="engine">
                             <p>Price: {{ price.RS6_Avant }}$</p>
@@ -34,7 +34,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-danger">Audi-rims</div>
+                        <div class="card-header bg-danger">{{ list.audi_rims }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/W3.jpg" alt="engine">
                             <p>Price: {{ price.RS6 }}$</p>
@@ -49,7 +49,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-danger">Audi-rims</div>
+                        <div class="card-header bg-danger">{{ list.audi_rims }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/W4.jpg" alt="engine">
                             <p>Price: {{ price.RS4_Avant }}$</p>
@@ -66,7 +66,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-danger">Audi-rims</div>
+                        <div class="card-header bg-danger">{{ list.audi_rims }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/W5.webp" alt="engine">
                             <p>Price: {{ price.RS4 }}$</p>
@@ -81,7 +81,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-danger">Audi-rims</div>
+                        <div class="card-header bg-danger">{{ list.audi_rims }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/W6.jpg" alt="engine">
                             <p>Price: {{ price.RS3 }}$</p>
@@ -96,7 +96,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-danger">Audi-rims</div>
+                        <div class="card-header bg-danger">{{ list.audi_rims }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/W7.jpg" alt="engine">
                             <p>Price: {{ price.RS5 }}$</p>
@@ -111,7 +111,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-danger">Audi-rims</div>
+                        <div class="card-header bg-danger">{{ list.audi_rims }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/W8.jpg" alt="engine">
                             <p>Price: {{ price.RS8 }}$</p>
@@ -132,8 +132,8 @@ export default {
     name: 'Wheels',
     data() {
             return {
-                engine: {
-                    name: 'RS7'
+                list: {
+                    audi_rims: 'Audi rims'
                 },
                 price: {
                     RS7: 10000,

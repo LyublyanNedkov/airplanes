@@ -4,7 +4,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header card-color bg-warning">RS3</div>
+                        <div class="card-header card-color bg-warning">{{ list.RS3_breaks }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS3Break.jpg" alt="engine">
                             <p>Price: {{ price.RS3_breaks }}$</p>
@@ -19,7 +19,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-warning">RS4</div>
+                        <div class="card-header bg-warning">{{ list.RS4_breaks }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS4Break.jpg" alt="engine">
                             <p>Price: {{ price.RS4_breaks }}$</p>
@@ -34,11 +34,11 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-warning">S2</div>
+                        <div class="card-header bg-warning">{{ list.S2_breaks }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/S2Break.jpg" alt="engine">
-                            <p>Price: {{ price.S2_break }}$</p>
-                            <p>In stock: {{ inStock.S2_break }} units</p>
+                            <p>Price: {{ price.S2_breaks }}$</p>
+                            <p>In stock: {{ inStock.S2_breaks }} units</p>
                             <input type="number" class="form-control" placeholder="Quantity">
                             <br>
                             <button class="btn btn-primary btn-cart" @click="addToCart()">ADD TO CART</button>
@@ -49,11 +49,11 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-warning">S4</div>
+                        <div class="card-header bg-warning">{{ list.S4_breaks }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/S4Break.jpg" alt="engine">
-                            <p>Price: {{ price.S4_break }}$</p>
-                            <p>In stock: {{ inStock.S4_break }} units</p>
+                            <p>Price: {{ price.S4_breaks }}$</p>
+                            <p>In stock: {{ inStock.S4_breaks }} units</p>
                             <input type="number" class="form-control" placeholder="Quantity">
                             <br>
                             <button class="btn btn-primary btn-cart" @click="addToCart()">ADD TO CART</button>
@@ -70,17 +70,23 @@ export default {
     name: 'Breaks',
     data() {
             return {
+                list: {
+                    RS3_breaks: 'RS3',
+                    RS4_breaks: 'RS4',
+                    S2_breaks: 'S2',
+                    S4_breaks: 'S4',
+                },
                 price: {
                     RS3_breaks: 10000,
                     RS4_breaks: 11000,
-                    S2_break: 12000,
-                    S4_break: 13000,
+                    S2_breaks: 12000,
+                    S4_breaks: 13000,
                 },
                 inStock: {
                     RS3_breaks: 11,
                     RS4_breaks: 12,
-                    S2_break: 13,
-                    S4_break: 14,
+                    S2_breaks: 13,
+                    S4_breaks: 14,
                 }
             }
         },

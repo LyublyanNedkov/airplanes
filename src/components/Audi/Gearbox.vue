@@ -4,7 +4,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header card-color bg-secondary">A4-manual</div>
+                        <div class="card-header card-color bg-secondary">{{ list.A4_manual }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/A4_B8_Manual.jpg" alt="engine">
                             <p>Price: {{ price.A4_manual }}$</p>
@@ -19,7 +19,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-secondary">S-tronic</div>
+                        <div class="card-header bg-secondary">{{ list.S_tronic }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/S_tronic_dc.jpg" alt="engine">
                             <p>Price: {{ price.S_tronic }}$</p>
@@ -34,7 +34,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-secondary">A4-automatic</div>
+                        <div class="card-header bg-secondary">{{ list.A4_automatic }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/A4_manual.jpg" alt="engine">
                             <p>Price: {{ price.A4 }}$</p>
@@ -49,7 +49,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-secondary">7-speed</div>
+                        <div class="card-header bg-secondary">{{ list.Seven_speed }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/Seven_speed_dc.jpg" alt="engine">
                             <p>Price: {{ price.Seven_speed }}$</p>
@@ -81,7 +81,13 @@ export default {
                     S_tronic: 12,
                     A4: 13,
                     Seven_speed: 14
-                }
+                },
+                list: {
+                    A4_manual: 'A4-manual',
+                    S_tronic: 'S-tronic',
+                    A4_automatic: 'A4-automatic',
+                    Seven_speed: '7-speed'
+                },
             }
         },
         props: [],

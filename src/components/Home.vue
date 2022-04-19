@@ -41,6 +41,21 @@
                     <p class="team_text">Robert_Downey_Jr: Technological R&D</p> 
                     <img class="Robert_Downey_Jr" src="../assets/Robert_Downey_Jr.jpg" alt="pic">
                 </div>
+            </div>
+            <div class="row justify-content-center text-center my-row">
+                <div class="col col-xxl-12 text-center my-col">
+                    <p class="team_text_our">Our location</p> 
+                    <p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.088970561152!2d23.228208015733163!3d42.74416981874949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa90b97ddeb8d1%3A0x8404ff424dc9767b!2z0JDRg9C00Lg!5e0!3m2!1sbg!2sbg!4v1650357762853!5m2!1sbg!2sbg" 
+                                width="600" 
+                                height="450" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </p>
+                </div>
             </div>              
         </div>
     </div>
@@ -53,6 +68,6 @@
 </script>
 
 <style scoped>
-
+    
 </style>
 

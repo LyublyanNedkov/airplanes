@@ -4,7 +4,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header card-color bg-info">Q5</div>
+                        <div class="card-header card-color bg-info">{{ list.Q5susp }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/Q5susp.jpg" alt="engine">
                             <p>Price: {{ price.Q5susp }}$</p>
@@ -19,7 +19,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-info">Q7</div>
+                        <div class="card-header bg-info">{{ list.Q7susp }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/Q7susp.jpg" alt="engine">
                             <p>Price: {{ price.Q7susp }}$</p>
@@ -34,7 +34,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-info">SQ2</div>
+                        <div class="card-header bg-info">{{ list.SQ2susp }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/SQ2susp.jpg" alt="engine">
                             <p>Price: {{ price.SQ2susp }}$</p>
@@ -49,7 +49,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-info">SQ7</div>
+                        <div class="card-header bg-info">{{ list.SQ7susp }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/SQ7susp.jpg" alt="engine">
                             <p>Price: {{ price.SQ7susp }}$</p>
@@ -66,7 +66,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-info">A6</div>
+                        <div class="card-header bg-info">{{ list.A6susp }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/A6susp.jpg" alt="engine">
                             <p>Price: {{ price.A6susp }}$</p>
@@ -81,7 +81,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-info">S8</div>
+                        <div class="card-header bg-info">{{ list.S8susp }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/S8susp.jpg" alt="engine">
                             <p>Price: {{ price.S8susp }}$</p>
@@ -96,7 +96,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-info">RS7</div>
+                        <div class="card-header bg-info">{{ list.RS7susp }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS7susp.jpg" alt="engine">
                             <p>Price: {{ price.RS7susp }}$</p>
@@ -111,7 +111,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-info">A8</div>
+                        <div class="card-header bg-info">{{ list.A8susp }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/A8susp.jpg" alt="engine">
                             <p>Price: {{ price.A8susp }}$</p>
@@ -132,6 +132,16 @@ export default {
     name: 'Suspension',
     data() {
             return {
+                list: {
+                    Q5susp: 'Q5',
+                    Q7susp: 'Q7',
+                    SQ2susp: 'SQ2',
+                    SQ7susp: 'SQ7',
+                    A6susp: 'A6',
+                    S8susp: 'S8',
+                    RS7susp: 'RS7',
+                    A8susp: 'A8'
+                },
                 price: {
                     Q5susp: 10000,
                     Q7susp: 11000,
