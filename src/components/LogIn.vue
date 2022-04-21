@@ -1,12 +1,15 @@
 <template>
     <div class="login">
-        <h1>Login</h1>
-        <form @submit.prevent="Login">
+        <h1 class="login-text">Login</h1>
+        <form @submit.prevent="Login" class="form-login">
             <input type="text" placeholder="Email" v-model="email">
+            <br>
+            <br>
             <input type="password" placeholder="Password" v-model="password">
+            <br>
+            <br>
             <input type="submit" value="Login">
             <p>Need an account? <router-link to="/Register">Register here</router-link></p>
-            <br>
             <button class="logout" @click="Logout">Logout</button>
         </form>
     </div>    

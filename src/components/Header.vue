@@ -17,7 +17,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item col-xxl-4 col-md-1">
-                            <router-link class="btnProducts" to="/Portfolio">Products</router-link>
+                            <router-link class="btnProducts" to="/Products">Products</router-link>
                         </li>                 
                         <li class="nav-item col-xxl-4 col-md-1">
                             <router-link class="btnContacts" to="/Contacts">Contacts</router-link>

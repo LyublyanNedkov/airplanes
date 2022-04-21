@@ -1,6 +1,6 @@
 <template>
     <div class="register">
-        <h1>Register</h1>
+        <h1 class="register-text">Register</h1>
         <form @submit.prevent="Register">
             <input type="text" placeholder="Email" v-model="email">
             <input type="password" placeholder="Password" v-model="password">

@@ -4,7 +4,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header card-color bg-primary">{{ list.RS7 }}</div>
+                        <div class="card-header card-color bg-primary">{{ name.RS7 }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS7.jpg" alt="engine">
                             <p>Price: {{ price.RS7 }}$</p>
@@ -19,7 +19,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-primary">{{ list.RS6_Avant }}</div>
+                        <div class="card-header bg-primary">{{ name.RS6_Avant }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS6-Avant.jpg" alt="engine">
                             <p>Price: {{ price.RS6_Avant }}$</p>
@@ -34,7 +34,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-primary">{{ list.RS6 }}</div>
+                        <div class="card-header bg-primary">{{ name.RS6 }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS6.jpg" alt="engine">
                             <p>Price: {{ price.RS6 }}$</p>
@@ -49,7 +49,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-primary">{{ list.RS4_Avant }}</div>
+                        <div class="card-header bg-primary">{{ name.RS4_Avant }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS4-Avant.jpg" alt="engine">
                             <p>Price: {{ price.RS4_Avant }}$</p>
@@ -66,7 +66,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-primary">{{ list.RS4 }}</div>
+                        <div class="card-header bg-primary">{{ name.RS4 }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS4.jpg" alt="engine">
                             <p>Price: {{ price.RS4 }}$</p>
@@ -81,7 +81,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-primary">{{ list.RS3 }}</div>
+                        <div class="card-header bg-primary">{{ name.RS3 }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS3.jpg" alt="engine">
                             <p>Price: {{ price.RS3 }}$</p>
@@ -96,7 +96,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-primary">{{ list.RS5 }}</div>
+                        <div class="card-header bg-primary">{{ name.RS5 }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS5.jpg" alt="engine">
                             <p>Price: {{ price.RS5 }}$</p>
@@ -111,7 +111,7 @@
             <div class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card border-dark mb-3">
-                        <div class="card-header bg-primary">{{ list.RS8 }}</div>
+                        <div class="card-header bg-primary">{{ name.RS8 }}</div>
                         <div class="card-body text-dark">
                             <img class="img-engine img-a" src="../../assets/RS8.jpg" alt="engine">
                             <p>Price: {{ price.RS8 }}$</p>
@@ -128,13 +128,11 @@
 </template>
 
 <script>
-    // import { bus } from '../main';
-
     export default {
         name: 'Engine',
         data() {
             return {
-                list: {
+                name: {
                     RS7: 'RS7',
                     RS6_Avant: 'RS6-Avant',
                     RS6: 'RS6',
@@ -166,15 +164,11 @@
                 },
             }
         },
-        props: [],
         methods: {
             addToCart() {
                 this.$emit('add-to-cart')
             }
-        },   
-        created() {
-            bus.$on('dynheader')
-        },
+        }
     }
 </script>
 
