@@ -1,0 +1,10 @@
+[
+    { "name": "RS7", "price": 10000, "inStock": 10 },
+    { "name": "RS6_Avant", "price": 11000, "inStock": 11 },
+    { "name": "RS6", "price": 12000, "inStock": 12 },
+    { "name": "RS4_Avant", "price": 13000, "inStock": 13 },
+    { "name": "RS4", "price": 14000, "inStock": 14 },
+    { "name": "RS3", "price": 15000, "inStock": 15 },
+    { "name": "RS5", "price": 16000, "inStock": 16 },
+    { "name": "RS8", "price": 17000, "inStock": 17 }
+]
