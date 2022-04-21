@@ -1,5 +1,5 @@
 import Home from './components/Home.vue'
-import Portfolio from './components/Portfolio.vue'
+import Products from './components/Products.vue'
 import LogIn from './components/LogIn.vue'
 import Register from './components/Register.vue'
 import Contacts from './components/Contacts.vue'
@@ -16,7 +16,7 @@ import Exhaust_system from './components/Audi/Exhaust_system.vue'
 
 export const routes = [
     { path: '/', component: Home },
-    { path: '/Portfolio', component: Portfolio },
+    { path: '/Products', component: Products },
     { path: '/LogIn', component: LogIn },
     { path: '/Register', component: Register },
     { path: '/Contacts', component: Contacts },
