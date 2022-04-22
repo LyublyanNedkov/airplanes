@@ -5,7 +5,7 @@
                 <p class="audi_garage">AUDI GARAGE</p>
                 <img class="audi_pic" src="../assets/Bodykit.jpg" alt="pic">
             </div>
-            <div class="col col-sm-12 col-lg-12 col-xxl-12 text-center">
+            <div class="col col-sm-12 col-lg-12 col-xxl-12 text-center welcome-text-container">
                 <p class="welcome_text">We pride ourselves on being the best shop for audi parts!
                                     We can deliver the parts you need anywhere in the world 24/7.
                                     We work only with original parts and you will be hard pressed 
@@ -29,15 +29,15 @@
                 </div>
             </div>
             <div class="row justify-content-center text-center my-row">
-                <div class="col col-xxl-4 text-center my-col">
+                <div class="col col-xxl-4 text-center my-col team-col">
                     <p class="team_text">Tom Holland: Sales manager</p>
                     <img class="Tom_Holland_pic" src="../assets/Tom_Holland.jpg" alt="pic">
                 </div>
-                <div class="col col-xxl-4 text-center my-col">
+                <div class="col col-xxl-4 text-center my-col team-col">
                     <p class="team_text">Scarlet_Johansson: Human resources</p> 
                     <img class="Scarlet_Johansson_pic" src="../assets/Scarlet_Johansson.jpg" alt="pic">
                 </div>
-                <div class="col col-xxl-4 text-center my-col">
+                <div class="col col-xxl-4 text-center my-col team-col">
                     <p class="team_text">Robert_Downey_Jr: Technological R&D</p> 
                     <img class="Robert_Downey_Jr" src="../assets/Robert_Downey_Jr.jpg" alt="pic">
                 </div>

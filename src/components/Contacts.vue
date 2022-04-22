@@ -3,7 +3,7 @@
         <div class="row justify-content-center">
             <div class="col col-xxl-10 col-lg-10 col-sm-11 text-center">
                 <div class="text-contacts">
-                    <h1 class="text-contacts-h1">You can contact us if you need any aditional information about the
+                    <h1 class="text-contacts-h1">Please contact us if you need any aditional information about the
                                                 parts, shipping cost and so on!
                     </h1>
                 </div>

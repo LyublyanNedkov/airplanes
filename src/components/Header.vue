@@ -1,6 +1,6 @@
 <template>
     <div class="container-header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top my-navbar">
             <div class="container-fluid">
                 <router-link to="/" class="col-xxl-1 col-md-1 col-sm-1 navbar-brand btnLogo">
                     <img src="../assets/Audi_logo.jpg" alt="logo" class="audi_logo">
@@ -29,7 +29,7 @@
                             <router-link class="btnSC" 
                                         to="/ShoppingCart"
                                         @add-to-cart="updateCart">
-                                <box-icon name='cart'></box-icon>({{ cart }})
+                                <box-icon name='cart'></box-icon>
                             </router-link>
                         </li>
                     </ul>
