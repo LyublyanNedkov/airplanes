@@ -7,10 +7,59 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .register {
+    .container-register {
+        margin-top: 8rem;
+        margin-bottom: -8.2rem;
+        background-color: $lightgrey;
+        border-radius: 1rem;
+
         .register-text {
             text-align: center;
-            color: green;
+            color: $midblue;
+            font-size: 3rem;
+        }
+
+        .btn-register,
+        .btn-logout {
+            background-color: $darkblue;
+            color: $lightblue;
+            text-decoration: none;
+            border-radius: .5rem;
+        }
+
+        .btn-register:hover,
+        .btn-logout:hover {
+            background-color: $lightblue;
+            color: $darkblue;
+        }
+
+        .btn-register {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            font-size: 1.7rem;
+        }
+
+        .btn-logout {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .needAccount-text {
+            color: $darkblue;
+            margin-top: 1rem;
+        }
+
+        .registerHere-text {
+            color: $midblue;
+            text-decoration: none;
+        }
+
+        .registerHere-text:hover {
+            color: $lightblue;
+        }
+
+        .form {
+            margin-top: 1rem;
         }
     }
 }

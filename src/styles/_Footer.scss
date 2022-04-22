@@ -9,5 +9,18 @@
 @media screen and (min-width: 1440px) {
     .my-footer {
         margin-top: 14.1%;
+        background-color: $grey;
+    }
+
+    .text-AG,
+    .text-audi-garage,
+    .text-destrib,
+    .text-links,
+    .text-contacts {
+        color: $lightblue;
+    }
+
+    .text-white {
+        color: white;
     }
 }

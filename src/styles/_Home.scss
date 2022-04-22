@@ -31,6 +31,8 @@
         .audi_garage {
             font-family: 'Bebas Neue', cursive;
             font-size: 15rem;
+            margin-top: 5rem;
+            color: $midblue;
         }
 
         .audi_pic {
@@ -43,6 +45,9 @@
             font-family: 'Bebas Neue', cursive;
             font-size: 3rem;
             margin-top: 3rem;
+            color: white;
+            background-color: $darkblue;
+            border-radius: 1rem;
         }
 
         .welcome_img {
@@ -54,6 +59,17 @@
         .history_text_description {
             font-family: 'Bebas Neue', cursive;
             font-size: 3rem;
+        }
+
+        .history_text,
+        .team_text_our {
+            color: $midblue;
+        }
+
+        .history_text_description {
+            color: white;
+            background-color: $darkblue;
+            border-radius: 1rem;
         }
 
         // .history_img {
@@ -72,6 +88,7 @@
             font-family: 'Bebas Neue', cursive;
             font-size: 3rem;
             margin-top: 3rem;
+            color: $midblue;
         }
 
         .Tom_Holland_pic,
@@ -80,6 +97,12 @@
             width: 20rem;
             height: 24rem;
             margin-bottom: 2rem;
+        }
+
+        .team-col {
+            background-color: $lightgrey;
+            border: 1px solid black;
+            border-radius: 1rem;
         }
     }
 }

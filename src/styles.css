@@ -51,31 +51,34 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .container-header .my-navbar {
+    background-color: grey;
+  }
   .container-header .btnProducts {
     font-size: 2rem;
-    color: darkgreen;
+    color: #00c6cf;
     text-decoration: none;
     margin-left: -2rem;
   }
   .container-header .btnProducts:hover {
-    color: green;
+    color: #068488;
   }
   .container-header .btnContacts {
     font-size: 2rem;
-    color: darkgreen;
+    color: #00c6cf;
     text-decoration: none;
   }
   .container-header .btnContacts:hover {
-    color: green;
+    color: #068488;
   }
   .container-header .btnLogIn {
     font-size: 2rem;
-    color: darkgreen;
+    color: #00c6cf;
     text-decoration: none;
     margin-left: 2rem;
   }
   .container-header .btnLogIn:hover {
-    color: green;
+    color: #068488;
   }
   .container-header .btnSC {
     font-size: 2rem;
@@ -115,6 +118,8 @@
   .container-home .audi_garage {
     font-family: "Bebas Neue", cursive;
     font-size: 15rem;
+    margin-top: 5rem;
+    color: #068488;
   }
   .container-home .audi_pic {
     width: 40rem;
@@ -125,6 +130,9 @@
     font-family: "Bebas Neue", cursive;
     font-size: 3rem;
     margin-top: 3rem;
+    color: white;
+    background-color: #324b4c;
+    border-radius: 1rem;
   }
   .container-home .welcome_img {
     width: 40rem;
@@ -137,6 +145,15 @@
   }
   .container-home .history_text,
 .container-home .team_text_our {
+    color: #068488;
+  }
+  .container-home .history_text_description {
+    color: white;
+    background-color: #324b4c;
+    border-radius: 1rem;
+  }
+  .container-home .history_text,
+.container-home .team_text_our {
     font-family: "Bebas Neue", cursive;
     font-size: 6rem;
     margin-top: 3rem;
@@ -145,6 +162,7 @@
     font-family: "Bebas Neue", cursive;
     font-size: 3rem;
     margin-top: 3rem;
+    color: #068488;
   }
   .container-home .Tom_Holland_pic,
 .container-home .Robert_Downey_Jr,
@@ -153,71 +171,106 @@
     height: 24rem;
     margin-bottom: 2rem;
   }
-}
-@media screen and (min-width: 640px) {
-  .container-portfolio .container img {
-    transition: 1s;
-  }
-  .container-portfolio .container img:hover {
-    transform: scale(1.1);
-  }
-  .container-portfolio .pic {
-    width: 20rem;
-    height: 20rem;
+  .container-home .team-col {
+    background-color: lightgrey;
     border: 1px solid black;
-    transform: translate(1.1);
-  }
-  .container-portfolio .col {
-    padding: 0.3rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .container-portfolio .container img {
-    transition: 1s;
-  }
-  .container-portfolio .container img:hover {
-    transform: scale(1.1);
-  }
-  .container-portfolio .pic {
-    width: 20rem;
-    height: 20rem;
-    border: 1px solid black;
-    transform: translate(1.1);
-  }
-  .container-portfolio .col {
-    margin: 0.3rem;
+    border-radius: 1rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  .container-portfolio .container img {
-    transition: 1s;
+  .container-login {
+    margin-top: 8rem;
+    margin-bottom: -8.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
   }
-  .container-portfolio .container img:hover {
-    transform: scale(1.1);
-  }
-  .container-portfolio .pic {
-    width: 20rem;
-    height: 20rem;
-    border: 1px solid black;
-    transform: translate(1.1);
-  }
-  .container-portfolio .col {
-    margin: 0rem;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .login .login-text {
+  .container-login .login-text {
     text-align: center;
-    color: green;
+    color: #068488;
+    font-size: 3rem;
   }
-  .login .form-login {
-    align-items: center;
+  .container-login .btn-login,
+.container-login .btn-logout {
+    background-color: #324b4c;
+    color: #00c6cf;
+    text-decoration: none;
+    border-radius: 0.5rem;
+  }
+  .container-login .btn-login:hover,
+.container-login .btn-logout:hover {
+    background-color: #00c6cf;
+    color: #324b4c;
+  }
+  .container-login .btn-login {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+  }
+  .container-login .btn-logout {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  .container-login .needAccount-text {
+    color: #324b4c;
+    margin-top: 1rem;
+  }
+  .container-login .registerHere-text {
+    color: #068488;
+    text-decoration: none;
+  }
+  .container-login .registerHere-text:hover {
+    color: #00c6cf;
+  }
+  .container-login .form {
+    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  .register .register-text {
+  .container-register {
+    margin-top: 8rem;
+    margin-bottom: -8.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+  }
+  .container-register .register-text {
     text-align: center;
-    color: green;
+    color: #068488;
+    font-size: 3rem;
+  }
+  .container-register .btn-register,
+.container-register .btn-logout {
+    background-color: #324b4c;
+    color: #00c6cf;
+    text-decoration: none;
+    border-radius: 0.5rem;
+  }
+  .container-register .btn-register:hover,
+.container-register .btn-logout:hover {
+    background-color: #00c6cf;
+    color: #324b4c;
+  }
+  .container-register .btn-register {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+  }
+  .container-register .btn-logout {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  .container-register .needAccount-text {
+    color: #324b4c;
+    margin-top: 1rem;
+  }
+  .container-register .registerHere-text {
+    color: #068488;
+    text-decoration: none;
+  }
+  .container-register .registerHere-text:hover {
+    color: #00c6cf;
+  }
+  .container-register .form {
+    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 640px) {
@@ -269,11 +322,24 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .container-contacts {
+    background-color: lightgrey;
+    margin-top: 7rem;
+    border-radius: 1rem;
+  }
   .container-contacts .text-contacts-h1 {
-    margin-top: 2rem;
+    font-size: 2.7rem;
   }
   .container-contacts .input-group {
-    margin-top: 5rem;
+    margin-top: 4rem;
+  }
+  .container-contacts .input-group-text {
+    background-color: #324b4c;
+    color: #00c6cf;
+  }
+  .container-contacts .form-label {
+    color: #00c6cf;
+    font-size: 1.7rem;
   }
   .container-contacts .form-label {
     margin-top: 2rem;
@@ -282,19 +348,32 @@
     border: none;
     border-radius: 5px;
     font-size: 2rem;
-    background-color: lightseagreen;
-    color: lightgreen;
+    background-color: #324b4c;
+    color: #00c6cf;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
   .container-contacts .btn-submit:hover {
-    background-color: lightgreen;
-    color: lightseagreen;
+    background-color: #00c6cf;
+    color: #324b4c;
   }
 }
 @media screen and (min-width: 1440px) {
   .my-footer {
     margin-top: 14.1%;
+    background-color: grey;
+  }
+
+  .text-AG,
+.text-audi-garage,
+.text-destrib,
+.text-links,
+.text-contacts {
+    color: #00c6cf;
+  }
+
+  .text-white {
+    color: white;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -302,7 +381,7 @@
     margin-bottom: 3rem;
   }
   .container-audi .my-row1 {
-    margin-top: 1rem;
+    margin-top: 7rem;
   }
   .container-audi .my-row2 {
     margin-top: 0.1rem;
@@ -376,6 +455,13 @@
 .container-engine .fade-leave-active {
   transition: opacity 3s;
   opacity: 0;
+}
+.container-engine .img-a {
+  width: 16rem;
+  height: 16rem;
+}
+.container-engine .card-header {
+  font-size: 2rem;
 }
 
 .par {

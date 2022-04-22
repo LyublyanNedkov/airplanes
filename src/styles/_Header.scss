@@ -56,37 +56,41 @@
 
 @media screen and (min-width: 1440px) {
     .container-header {
+        .my-navbar {
+            background-color: $grey;
+        }
+
         .btnProducts {
             font-size: 2rem;
-            color: $darkgreen;
+            color: $lightblue;
             text-decoration: none;
             margin-left: -2rem;
         }
     
         .btnProducts:hover {
-            color: $green;
+            color: $midblue;
         }
     
         .btnContacts {
             font-size: 2rem;
-            color: $darkgreen;
+            color: $lightblue;
             text-decoration: none;
             // margin-left: 0.1rem;
         }
     
         .btnContacts:hover {
-            color: $green;
+            color: $midblue;
         }
 
         .btnLogIn {
             font-size: 2rem;
-            color: $darkgreen;
+            color: $lightblue;
             text-decoration: none;
             margin-left: 2rem;
         }
     
         .btnLogIn:hover {
-            color: $green;
+            color: $midblue;
         }
 
         .btnSC {
