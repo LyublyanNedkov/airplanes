@@ -167,6 +167,23 @@
         methods: {
             addToCart() {
                 this.$emit('add-to-cart')
+            },
+
+            submit() {
+                this.$http.post('', this.name)
+                    .then(response => {
+                        console.log(response);
+                    }, error => {
+                        console.log(error);
+                    });
+            },
+
+            fetchData() {
+                this.$http.get('')
+                    .then(response => {
+                        return response.json();
+                    })
+                    .then(data => console.log(data));
             }
         }
     }
