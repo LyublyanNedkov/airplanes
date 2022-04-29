@@ -1,56 +1,114 @@
-@media screen and (min-width: 640px) {
-    .btnProducts {
-        font-size: 1rem;
-        color: $darkgreen;
-        text-decoration: none;
-    }
+@media screen and (min-width: 390px) {
+    .container-header {
+        .my-navbar {
+            background-color: $grey;
+        }
 
-    .btnProducts:hover {
-        color: $green;
-    }
+        .btnProducts {
+            font-size: 2rem;
+            color: $lightblue;
+            text-decoration: none;
+            margin-left: -2rem;
+        }
+    
+        .btnProducts:hover {
+            color: $midblue;
+        }
+    
+        .btnContacts {
+            font-size: 2rem;
+            color: $lightblue;
+            text-decoration: none;
+            // margin-left: 0.1rem;
+        }
+    
+        .btnContacts:hover {
+            color: $midblue;
+        }
 
-    .btnContacts {
-        font-size: 1rem;
-        color: $darkgreen;
-        text-decoration: none;
-    }
+        .btnLogIn {
+            font-size: 2rem;
+            color: $lightblue;
+            text-decoration: none;
+            margin-left: 2rem;
+        }
+    
+        .btnLogIn:hover {
+            color: $midblue;
+        }
 
-    .btnContacts:hover {
-        color: $green;
-    }
+        .btnSC {
+            font-size: 2rem;
+            color: $darkgreen;
+            text-decoration: none;
+            margin-left: 2.5rem;
+        }
+    
+        .btnSC:hover {
+            color: $green;
+        }
 
-    .audi_logo {
-        width: 6rem;
-        height: 4rem;
+        .audi_logo {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .btnProducts {
-        font-size: 1.5rem;
-        color: $darkgreen;
-        text-decoration: none;
-        // margin-left: 1rem;
-    }
+@media screen and (min-width: 810px) {
+    .container-header {
+        .my-navbar {
+            background-color: $grey;
+        }
 
-    .btnProducts:hover {
-        color: $green;
-    }
+        .btnProducts {
+            font-size: 2rem;
+            color: $lightblue;
+            text-decoration: none;
+            margin-left: -2rem;
+        }
+    
+        .btnProducts:hover {
+            color: $midblue;
+        }
+    
+        .btnContacts {
+            font-size: 2rem;
+            color: $lightblue;
+            text-decoration: none;
+            // margin-left: 0.1rem;
+        }
+    
+        .btnContacts:hover {
+            color: $midblue;
+        }
 
-    .btnContacts {
-        font-size: 1.5rem;
-        color: $darkgreen;
-        text-decoration: none;
-        // margin-left: 1rem;
-    }
+        .btnLogIn {
+            font-size: 2rem;
+            color: $lightblue;
+            text-decoration: none;
+            margin-left: 2rem;
+        }
+    
+        .btnLogIn:hover {
+            color: $midblue;
+        }
 
-    .btnContacts:hover {
-        color: $green;
-    }
+        .btnSC {
+            font-size: 2rem;
+            color: $darkgreen;
+            text-decoration: none;
+            margin-left: 2.5rem;
+        }
+    
+        .btnSC:hover {
+            color: $green;
+        }
 
-    .audi_logo {
-        width: 6rem;
-        height: 4rem;
+        .audi_logo {
+            width: 6rem;
+            height: 4rem;
+        }
     }
 }
 

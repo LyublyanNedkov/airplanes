@@ -1,27 +1,169 @@
-@media (min-width: 640px) {
+@media (min-width: 390px) {
     .container-home {
-        .ln {
-            font-size: 5rem;
-            color: $green;
+        .audi_garage {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 7rem;
+            margin-top: 3.6rem;
+            color: $midblue;
         }
-    
-        .icon {
+
+        .audi_pic {
+            max-width: 100%;
+            height: auto;
+            margin-top: -2rem;
+        }
+
+        .welcome_text {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3rem;
+            margin-top: 3rem;
+            color: white;
+            background-color: $darkblue;
+            border-radius: 1rem;
+        }
+
+        .history_text,
+        .history_text_description {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3rem;
+        }
+
+        .history_text,
+        .team_text_our {
+            color: $midblue;
+        }
+
+        .history_text_description {
+            color: white;
+            background-color: $darkblue;
+            border-radius: 1rem;
+        }
+
+        .history_text,
+        .team_text_our {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 6rem;
+            margin-top: 3rem;
+        }
+
+        .team_text {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3rem;
+            margin-top: 3rem;
+            color: $midblue;
+        }
+
+        .Tom_Holland_pic,
+        .Robert_Downey_Jr,
+        .Scarlet_Johansson_pic {
+            width: 20rem;
+            height: 24rem;
+            margin-bottom: 2rem;
+        }
+
+        .team-col {
+            background-color: $lightgrey;
+            border: 1px solid black;
+            border-radius: 1rem;
+        }
+
+        .map {
             width: 20rem;
             height: 20rem;
+        }
+
+        .welcome_img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: -3rem;
+        }
+
+        .history_img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 3rem;
+            margin-bottom: -1rem;
         }
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 810px) {
     .container-home {
-        .ln {
-            font-size: 9rem;
-            color: $green;
+        .audi_garage {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 11rem;
+            margin-top: 5rem;
+            color: $midblue;
         }
-    
-        .icon {
-            width: 30rem;
-            height: 30rem;
+
+        .audi_pic {
+            max-width: 100%;
+            height: auto;
+            margin-top: -2.4rem;
+        }
+
+        .welcome_text {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3rem;
+            margin-top: 3rem;
+            color: white;
+            background-color: $darkblue;
+            border-radius: 1rem;
+        }
+
+        .welcome_img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .history_text,
+        .history_text_description {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3rem;
+        }
+
+        .history_text,
+        .team_text_our {
+            color: $midblue;
+        }
+
+        .history_text_description {
+            color: white;
+            background-color: $darkblue;
+            border-radius: 1rem;
+        }
+
+        .history_text,
+        .team_text_our {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 6rem;
+            margin-top: 3rem;
+        }
+
+        .team_text {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3rem;
+            margin-top: 3rem;
+            color: $midblue;
+        }
+
+        .Tom_Holland_pic,
+        .Robert_Downey_Jr,
+        .Scarlet_Johansson_pic {
+            width: 10rem;
+            height: 10rem;
+            margin-bottom: 2rem;
+        }
+
+        .team-col {
+            background-color: $lightgrey;
+            border: 1px solid black;
+            border-radius: 1rem;
+        }
+
+        .map {
+            width: 40rem;
+            height: 40rem;
         }
     }
 }
@@ -99,5 +241,10 @@
             border: 1px solid black;
             border-radius: 1rem;
         }
+
+        // .map {
+        //     max-width: 100%;
+        //     height: auto;
+        // }
     }
 }

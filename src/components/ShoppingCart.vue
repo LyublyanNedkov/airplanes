@@ -12,9 +12,9 @@
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="(quantity, key ,i) in cart" :key="i">
+                <tr v-for="mypro in myproducts" :key="mypro">
                     <td><i class="iconfont-carrot iconfont-3x"></i></td>
-                    <td>{{ key }}</td>
+                    <td>{{ state.myproducts.name }}</td>
                     <td>${{ getPrice(key) }}</td>
                     <td class="center">{{ quantity }}</td>
                     <td>${{ quantity * getPrice(key) }}</td>
