@@ -1,51 +1,32 @@
 @media screen and (min-width: 390px) {
     .container-header {
         .my-navbar {
-            background-color: $grey;
+            // background-color: $grey;
+            // background-color: transparent;
         }
 
         .btnProducts {
             font-size: 2rem;
             color: $lightblue;
             text-decoration: none;
-            margin-left: -2rem;
-        }
-    
-        .btnProducts:hover {
-            color: $midblue;
         }
     
         .btnContacts {
             font-size: 2rem;
             color: $lightblue;
             text-decoration: none;
-            // margin-left: 0.1rem;
-        }
-    
-        .btnContacts:hover {
-            color: $midblue;
         }
 
         .btnLogIn {
             font-size: 2rem;
             color: $lightblue;
             text-decoration: none;
-            margin-left: 2rem;
-        }
-    
-        .btnLogIn:hover {
-            color: $midblue;
         }
 
         .btnSC {
             font-size: 2rem;
             color: $darkgreen;
             text-decoration: none;
-            margin-left: 2.5rem;
-        }
-    
-        .btnSC:hover {
-            color: $green;
         }
 
         .audi_logo {
@@ -58,51 +39,32 @@
 @media screen and (min-width: 810px) {
     .container-header {
         .my-navbar {
-            background-color: $grey;
+            // background-color: $grey;
+            // background-color: transparent;
         }
 
         .btnProducts {
             font-size: 2rem;
             color: $lightblue;
             text-decoration: none;
-            margin-left: -2rem;
-        }
-    
-        .btnProducts:hover {
-            color: $midblue;
         }
     
         .btnContacts {
             font-size: 2rem;
             color: $lightblue;
             text-decoration: none;
-            // margin-left: 0.1rem;
-        }
-    
-        .btnContacts:hover {
-            color: $midblue;
         }
 
         .btnLogIn {
             font-size: 2rem;
             color: $lightblue;
             text-decoration: none;
-            margin-left: 2rem;
-        }
-    
-        .btnLogIn:hover {
-            color: $midblue;
         }
 
         .btnSC {
             font-size: 2rem;
             color: $darkgreen;
             text-decoration: none;
-            margin-left: 2.5rem;
-        }
-    
-        .btnSC:hover {
-            color: $green;
         }
 
         .audi_logo {
@@ -115,11 +77,11 @@
 @media screen and (min-width: 1440px) {
     .container-header {
         .my-navbar {
-            background-color: $grey;
+            
         }
 
         .btnProducts {
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: $lightblue;
             text-decoration: none;
             margin-left: -2rem;
@@ -130,7 +92,7 @@
         }
     
         .btnContacts {
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: $lightblue;
             text-decoration: none;
             // margin-left: 0.1rem;
@@ -141,7 +103,7 @@
         }
 
         .btnLogIn {
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: $lightblue;
             text-decoration: none;
             margin-left: 2rem;
@@ -152,8 +114,9 @@
         }
 
         .btnSC {
-            font-size: 2rem;
-            color: $darkgreen;
+            font-size: 1.5rem;
+            color: $midblue;
+            background-color: $midblue;
             text-decoration: none;
             margin-left: 2.5rem;
         }
@@ -163,8 +126,8 @@
         }
 
         .audi_logo {
-            width: 6rem;
-            height: 4rem;
+            width: 5rem;
+            height: 3rem;
         }
     }
 }

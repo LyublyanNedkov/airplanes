@@ -124,12 +124,90 @@
                 </transition>
             </div>
         </div>
+
+        <!-- v-for="m in models" :key="m" -->
+        <table class="table"> 
+            <thead>
+                <tr style="background-color: white;">
+                    <th scope="col">#</th>
+                    <th scope="col">Model</th>
+                    <th scope="col">Horse Power</th>
+                    <th scope="col">Price $</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-primary">
+                    <th scope="row">1</th>
+                    <!-- <td>{{ model.RS6 }}</td>
+                    <td>{{ HorsePower.RS6 }}</td>
+                    <td>{{ price.RS6 }}</td> -->
+                    <td>RS6</td>
+                    <td>600</td>
+                    <td>80000</td>
+                </tr>
+                <tr class="table-secondary">
+                    <th scope="row">2</th>
+                    <!-- <td>{{ model.RS3 }}</td>
+                    <td>{{ HorsePower.RS3 }}</td>
+                    <td>{{ price.RS3 }}</td> -->
+                    <td>RS3</td>
+                    <td>500</td>
+                    <td>50000</td>
+                </tr>
+                <tr class="table-success">
+                    <th scope="row">3</th>
+                    <!-- <td>{{ model.RS7 }}</td>
+                    <td>{{ HorsePower.RS7 }}</td>
+                    <td>{{ price.RS7 }}</td> -->
+                    <td>RS7</td>
+                    <td>700</td>
+                    <td>60000</td>
+                </tr>
+                <tr class="table-danger">
+                    <th scope="row">4</th>
+                    <!-- <td>{{ model.RS5 }}</td>
+                    <td>{{ HorsePower.RS5 }}</td>
+                    <td>{{ price.RS5 }}</td> -->
+                    <td>RS5</td>
+                    <td>400</td>
+                    <td>70000</td>
+                </tr>
+                <tr class="table-warning">
+                    <th scope="row">5</th>
+                    <!-- <td>{{ model.RS4 }}</td>
+                    <td>{{ HorsePower.RS4 }}</td>
+                    <td>{{ price.RS4 }}</td> -->
+                    <td>RS4</td>
+                    <td>450</td>
+                    <td>45000</td>
+                </tr>
+                <tr class="table-info">
+                    <th scope="row">6</th>
+                    <!-- <td>{{ model.RSQ8 }}</td>
+                    <td>{{ HorsePower.RSQ8 }}</td>
+                    <td>{{ price.RSQ8 }}</td> -->
+                    <td>RSQ8</td>
+                    <td>650</td>
+                    <td>95000</td>
+                </tr>
+                <tr class="table-light">
+                    <th scope="row">7</th>
+                    <!-- <td>{{ model.S8 }}</td>
+                    <td>{{ HorsePower.S8 }}</td>
+                    <td>{{ price.S8 }}</td> -->
+                    <td>S8</td>
+                    <td>550</td>
+                    <td>85000</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </template>
 
 <script>
     export default {
         name: 'Engine',
+        props: ['models'],
         data() {
             return {
                 name: {

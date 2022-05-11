@@ -23,7 +23,7 @@ export const store = new Vuex.Store({
             { name: 'RS3', price: 15000, inStock: 16},
             { name: 'RS5', price: 16000, inStock: 17},
             { name: 'RS8', price: 17000, inStock: 18}
-        ]
+        ],
     },
     getters: {
         productName: state => {

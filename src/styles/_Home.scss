@@ -175,6 +175,11 @@
             font-size: 15rem;
             margin-top: 5rem;
             color: $midblue;
+            // background-image: url('./assets/Bodykit.jpg');
+            // background-repeat: no-repeat;
+            // background-size: cover;
+            // width: 100%;
+            // height: 55rem;
         }
 
         .audi_pic {
@@ -242,9 +247,8 @@
             border-radius: 1rem;
         }
 
-        // .map {
-        //     max-width: 100%;
-        //     height: auto;
-        // }
+        .table {
+            margin-top: 8rem;
+        }
     }
 }

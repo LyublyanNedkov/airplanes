@@ -85,12 +85,12 @@
         name: 'Audi',
         data() {
             return {
-                show: false
+                show: false,
             }
         }
     }
 </script>
 
 <style scoped>
-
+    
 </style>
