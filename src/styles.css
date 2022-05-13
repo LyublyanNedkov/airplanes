@@ -1,5 +1,5 @@
-* {
-  background-color: black;
+body {
+  background-color: black !important;
 }
 
 @media screen and (min-width: 390px) {
@@ -641,4 +641,32 @@
 .container-exhaust .fade-leave-active {
   transition: opacity 3s;
   opacity: 0;
+}
+
+.card-test-one {
+  color: green;
+  border: 5px solid green;
+  border-radius: 10px;
+  margin-top: 8rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-test-two {
+  color: red;
+  border: 5px solid red !important;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: bold !important;
+  background-color: black !important;
+}
+
+.card-test-three {
+  color: blue;
+  border: 5px solid blue;
+  border-radius: 10px;
+  /* margin-top: 8rem; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: black;
 }/*# sourceMappingURL=styles.css.map */

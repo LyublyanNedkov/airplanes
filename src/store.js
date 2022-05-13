@@ -24,6 +24,9 @@ export const store = new Vuex.Store({
             { name: 'RS5', price: 16000, inStock: 17},
             { name: 'RS8', price: 17000, inStock: 18}
         ],
+        testove: [
+            { testName: 'Test Two', testLevel: 'Level: 1'}
+        ],
     },
     getters: {
         productName: state => {
