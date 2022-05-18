@@ -1,9 +1,7 @@
 <template>
     <div class="container container-audi">
         <div class="row justify-content-center text-center my-row1">
-
-
-            <!-- <div v-for="(value, index) in buttons" :key="index" class="col col-xxl-3 text-center my-col">
+            <div v-for="(value, index) in buttons" :key="index" class="col col-xxl-3 text-center my-col">
                 <transition name="fade" appear="">
                     <div class="card text-white mb-3" :class="value.color">
                         <div class="card-header">
@@ -11,84 +9,8 @@
                         </div>
                     </div>
                 </transition> 
-            </div> -->
-
-
-            <div class="col col-xxl-3 text-center my-col">
-                <transition name="fade" appear="">
-                    <div class="card text-white bg-primary mb-3">
-                        <div class="card-header">
-                            <router-link class="btn-engine btn-a" to="/Audi/Engine">Engine</router-link>
-                        </div>
-                    </div>
-                </transition> 
-            </div>
-            <div class="col col-xxl-3 text-center my-col">
-                <transition name="fade" appear="">
-                    <div class="card text-white bg-secondary mb-3">
-                        <div class="card-header">
-                            <router-link class="btn-gearbox btn-a" to="/Audi/Gearbox">Gearbox</router-link>
-                        </div>
-                    </div>
-                </transition>
-            </div>
-            <div class="col col-xxl-3 text-center my-col">
-                <transition name="fade" appear="">
-                    <div class="card text-white bg-success mb-3">
-                        <div class="card-header">
-                            <router-link class="btn-bodykit btn-a" to="/Audi/Bodykit">Bodykit</router-link>
-                        </div>
-                    </div>
-                </transition>
-            </div>
-            <div class="col col-xxl-3 text-center my-col">
-                <transition name="fade" appear="">
-                    <div class="card text-white bg-danger mb-3">
-                        <div class="card-header">
-                            <router-link class="btn-wheels btn-a" to="/Audi/Wheels">Wheels</router-link>
-                        </div>
-                    </div>
-                </transition>
-            </div>
-        <div class="row justify-content-center text-center my-row2">
-            <div class="col col-xxl-3 text-center my-col">
-                <transition name="fade" appear="">
-                    <div class="card text-white bg-warning mb-3">
-                        <div class="card-header">
-                            <router-link class="btn-breaks btn-a" to="/Audi/Breaks">Breaks</router-link>
-                        </div>
-                    </div>
-                </transition>
-            </div>
-            <div class="col col-xxl-3 text-center my-col">
-                <transition name="fade" appear="">
-                    <div class="card text-white bg-info mb-3">
-                        <div class="card-header">
-                            <router-link class="btn-suspension btn-a" to="/Audi/Suspension">Suspension</router-link>
-                        </div>
-                    </div>
-                </transition>
-            </div>
-            <div class="col col-xxl-3 text-center my-col">
-                <transition name="fade" appear="">
-                    <div class="card bg-my mb-3">
-                        <div class="card-header">
-                            <router-link class="btn-turbocharger btn-a" to="/Audi/Turbocharger">Turbocharger</router-link>
-                        </div>
-                    </div>
-                </transition>
-            </div>
-            <div class="col col-xxl-3 text-center my-col">
-                <transition name="fade" appear="">
-                    <div class="card text-white bg-dark mb-3">
-                        <div class="card-header">
-                            <router-link class="btn-exhaust btn-a" to="/Audi/Exhaust">Exhaust system</router-link>
-                        </div>
-                    </div>
-                </transition>
-            </div>
-        </div>           
-        </div>
+            </div>            
+        </div>       
         <router-view />
     </div>
 </template>
@@ -104,6 +26,10 @@
                     {partName: 'Gearbox', color: 'bg-secondary', link: '/Audi/Gearbox'},
                     {partName: 'Bodykit', color: 'bg-success', link: '/Audi/Bodykit'},
                     {partName: 'Wheels', color: 'bg-danger', link: '/Audi/Wheels'},
+                    {partName: 'Breaks', color: 'bg-warning', link: '/Audi/Breaks'},
+                    {partName: 'Suspension', color: 'bg-info', link: '/Audi/Suspension'},
+                    {partName: 'Turbocharger', color: 'bg-my', link: '/Audi/Turbocharger'},
+                    {partName: 'Exhaust system', color: 'bg-dark', link: '/Audi/Exhaust system'},
                 ],
                 models: [
                     { model: 'RS6', price: 80000, HorsePower: 600},
