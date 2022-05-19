@@ -15,20 +15,20 @@
 </template>
 
 <script>
-export default {
-    name: 'HomeTestTwo',
-    props: ['testove'],
-    computed: {
-        testove() {
-            return this.$store.state.testove
-        }
-    },
-    data() {
-        return {
-            
+    export default {
+        name: 'HomeTestTwo',
+        props: ['testove'],
+        computed: {
+            testove() {
+                return this.$store.state.testove
+            }
+        },
+        data() {
+            return {
+                
+            }
         }
     }
-}
 </script>
 
 <style scoped>

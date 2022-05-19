@@ -11,6 +11,7 @@
             <HomeTestTwo />
             <HomeTestThree :parentTestName="parentTestName" :parentTestLevel="parentTestLevel" />
             <HomeTable />
+            <IceCreamMain />
             <div v-for="(value, key, index) in images" :key="index">
                 <img :src="value.imgOne" alt="pic" width="1300rem" height="800rem">
             </div>
@@ -23,6 +24,7 @@
     import HomeTestOne from './HomeComp/HomeTestOne.vue'
     import HomeTestTwo from './HomeComp/HomeTestTwo.vue'
     import HomeTestThree from './HomeComp/HomeTestThree.vue'
+    import IceCreamMain from './HomeComp/IceCreamShop/IceCreamMain.vue'
 
 
     export default {
@@ -32,6 +34,7 @@
             HomeTestOne,
             HomeTestTwo,
             HomeTestThree,
+            IceCreamMain
         },
         props: ['models'],
         data() {
