@@ -11,6 +11,9 @@
             <HomeTestTwo />
             <HomeTestThree :parentTestName="parentTestName" :parentTestLevel="parentTestLevel" />
             <HomeTable />
+            <div v-for="(value, key, index) in images" :key="index">
+                <img :src="value.imgOne" alt="pic" width="1300rem" height="800rem">
+            </div>
         </div>
     </div>
 </template>
@@ -34,7 +37,10 @@
         data() {
             return {
                 parentTestName: 'Test Three',
-                parentTestLevel: 'Level: 2'
+                parentTestLevel: 'Level: 2',
+                images: [
+                    { imgOne: require('@/assets/Body_kit3.jpg') }
+                ]
             }
         },
     }
