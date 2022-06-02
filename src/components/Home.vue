@@ -15,6 +15,11 @@
             <div v-for="(value, key, index) in images" :key="index">
                 <img :src="value.imgOne" alt="pic" width="1300rem" height="800rem">
             </div>
+            <HomeEmitEvent @change-number="newNumber" />
+            <p style="color: white;">My number: {{ number }}</p>
+            <HomeEE1 @change-name-p="newNameP" @change-name-s="newNameS" />
+            <p style="color: white;">My food: {{ name }}</p>
+            <p style="color: white;">My food: {{ spageti }}</p>
         </div>
     </div>
 </template>
@@ -25,7 +30,8 @@
     import HomeTestTwo from './HomeComp/HomeTestTwo.vue'
     import HomeTestThree from './HomeComp/HomeTestThree.vue'
     import IceCreamMain from './HomeComp/IceCreamShop/IceCreamMain.vue'
-
+    import HomeEmitEvent from './HomeComp/HomeEmitEvent.vue'
+    import HomeEE1 from './HomeComp/HomeEE1.vue'
 
     export default {
         name: 'Home',
@@ -34,7 +40,9 @@
             HomeTestOne,
             HomeTestTwo,
             HomeTestThree,
-            IceCreamMain
+            IceCreamMain,
+            HomeEmitEvent,
+            HomeEE1
         },
         props: ['models'],
         data() {
@@ -43,9 +51,23 @@
                 parentTestLevel: 'Level: 2',
                 images: [
                     { imgOne: require('@/assets/Body_kit3.jpg') }
-                ]
+                ],
+                number: 0,
+                name: 'Pizza',
+                spageti: 'Spageti'
             }
         },
+        methods: {
+            newNumber(newValue) {
+                this.number = newValue
+            },
+            newNameP(newValue) {
+                this.name = newValue
+            },
+            newNameS(newValue) {
+                this.name = newValue
+            }
+        }
     }
 </script>
 
