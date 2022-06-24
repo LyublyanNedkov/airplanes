@@ -10,6 +10,7 @@ Vue.use(Vuex)
 
 export const store = new Vuex.Store({
     state: {
+        count: 0,
         productName: '',
         productCost: 0,
         cartLength: 0,
@@ -28,21 +29,11 @@ export const store = new Vuex.Store({
             { testName: 'Test Two', testLevel: 'Level: 1'}
         ],
     },
-    getters: {
-        productName: state => {
-            return state.productName;
-        },
-        productCost: state => {
-            return state.productCost;
-        },
-        cartLength: state => {
-            return state.cartLength;
-        },
-    },
+    getters,
     mutations,
     actions,
     modules: {
         counter,
-    }
+    },
 }); 
 
