@@ -7,7 +7,7 @@
                     <li v-for="(subvalue, index) in value" :key="index + 'a'">{{ subvalue }}</li>
                 </ul>                
             </div> -->
-            <HomeTestOne />
+            <!-- <HomeTestOne />
             <HomeTestTwo />
             <HomeTestThree :parentTestName="parentTestName" :parentTestLevel="parentTestLevel" />
             <HomeTable />
@@ -19,7 +19,7 @@
             <p style="color: white;">My number: {{ number }}</p>
             <HomeEE1 @change-name-p="newNameP" @change-name-s="newNameS" />
             <p style="color: white;">My food: {{ name }}</p>
-            <p style="color: white;">My food: {{ spageti }}</p>
+            <p style="color: white;">My food: {{ spageti }}</p> -->
         </div>
     </div>
 </template>
