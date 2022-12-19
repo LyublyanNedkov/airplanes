@@ -76,15 +76,16 @@
 
 @media screen and (min-width: 1440px) {
     .container-header {
-        .my-navbar {
+        // .my-navbar {
             
-        }
+        // }
 
         .btnProducts {
-            font-size: 1.5rem;
-            color: $lightblue;
+            font-size: 1.2rem;
+            color: black;
             text-decoration: none;
-            margin-left: -2rem;
+            margin-left: -3rem;
+            // margin-top: 4rem;
         }
     
         .btnProducts:hover {
@@ -92,10 +93,10 @@
         }
     
         .btnContacts {
-            font-size: 1.5rem;
-            color: $lightblue;
+            font-size: 1.2rem;
+            color: black;
             text-decoration: none;
-            // margin-left: 0.1rem;
+            margin-left: -1rem;
         }
     
         .btnContacts:hover {
@@ -103,10 +104,10 @@
         }
 
         .btnLogIn {
-            font-size: 1.5rem;
-            color: $lightblue;
+            font-size: 1.2rem;
+            color: black;
             text-decoration: none;
-            margin-left: 2rem;
+            margin-left: 1.2rem;
         }
     
         .btnLogIn:hover {
@@ -115,8 +116,8 @@
 
         .btnSC {
             font-size: 1.5rem;
-            color: $midblue;
-            background-color: $midblue;
+            // color: $midblue;
+            // background-color: $midblue;
             text-decoration: none;
             margin-left: 2.5rem;
         }
@@ -125,9 +126,9 @@
             color: $green;
         }
 
-        .audi_logo {
-            width: 5rem;
-            height: 3rem;
+        .aviation_logo {
+            width: 4rem;
+            height: 5rem;
         }
     }
 }

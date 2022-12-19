@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top my-navbar">
             <div class="container-fluid">
                 <router-link to="/" class="col-xxl-1 col-md-1 col-sm-1 navbar-brand btnLogo">
-                    <img src="../assets/Audi_logo.jpg" alt="logo" class="audi_logo">
+                    <img src="../assets/AviationLogo.jpg" alt="logo" class="aviation_logo">
                 </router-link>
                 <button class="navbar-toggler" 
                         type="button" 

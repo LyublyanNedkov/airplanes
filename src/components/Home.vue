@@ -1,25 +1,23 @@
 <template>
     <div class="container container-fluid container-home">
+        <div class="row text-center">
+            <p class="AviationNewsText">
+                Aviation News
+            </p>
+            <p class="SecondText">
+                We keep you up to date on the latest news about personal flying and share incisive, 
+                relevant opinion on this ever changing activity.
+            </p>
+        </div>
         <div class="row justify-content-center">
-            <!-- <div class="col col-sm-12 col-lg-12 col-xxl-12 text-center">                                
-                <ul v-for="(value, key, index) in cars" :key="index">
-                    {{ key }}
-                    <li v-for="(subvalue, index) in value" :key="index + 'a'">{{ subvalue }}</li>
-                </ul>                
-            </div> -->
-            <!-- <HomeTestOne />
-            <HomeTestTwo />
-            <HomeTestThree :parentTestName="parentTestName" :parentTestLevel="parentTestLevel" />
-            <HomeTable />
-            <IceCreamMain />
             <div v-for="(value, key, index) in images" :key="index">
-                <img :src="value.imgOne" alt="pic" width="1300rem" height="800rem">
+                <img class="AirportImg" :src="value.imgOne" alt="pic">
             </div>
-            <HomeEmitEvent @change-number="newNumber" />
-            <p style="color: white;">My number: {{ number }}</p>
-            <HomeEE1 @change-name-p="newNameP" @change-name-s="newNameS" />
-            <p style="color: white;">My food: {{ name }}</p>
-            <p style="color: white;">My food: {{ spageti }}</p> -->
+        </div>
+        <div class="row justify-content-center">
+            <div v-for="(value, key, index) in images" :key="index">
+                <img class="AirshowImg" :src="value.imgTwo" alt="pic">
+            </div>
         </div>
     </div>
 </template>
@@ -47,26 +45,14 @@
         props: ['models'],
         data() {
             return {
-                parentTestName: 'Test Three',
-                parentTestLevel: 'Level: 2',
                 images: [
-                    { imgOne: require('@/assets/Body_kit3.jpg') }
+                    { imgOne: require('@/assets/Airport.jpg') },
+                    { imgTwo: require('@/assets/Airshow.jpg') }
                 ],
-                number: 0,
-                name: 'Pizza',
-                spageti: 'Spageti'
             }
         },
         methods: {
-            newNumber(newValue) {
-                this.number = newValue
-            },
-            newNameP(newValue) {
-                this.name = newValue
-            },
-            newNameS(newValue) {
-                this.name = newValue
-            }
+            
         }
     }
 </script>

@@ -9,11 +9,11 @@
     .text-destrib,
     .text-links,
     .text-contacts {
-        color: $lightblue;
+        color: black;
     }
 
     .text-white {
-        color: white;
+        color: black;
     }
 }
 
@@ -29,17 +29,17 @@
 .text-destrib,
 .text-links,
 .text-contacts {
-    color: $lightblue;
+    color: black;
 }
 
 .text-white {
-    color: white;
+    color: black;
 }
 
 @media screen and (min-width: 1440px) {
     .my-footer {
         margin-top: 14.1%;
-        background-color: $grey;
+        background-color: $lightgrey;
     }
 
     .text-AG,
@@ -47,10 +47,10 @@
     .text-destrib,
     .text-links,
     .text-contacts {
-        color: $lightblue;
+        color: black;
     }
 
-    .text-white {
-        color: white;
+    .first-text {
+        color: black;
     }
 }
