@@ -3,7 +3,7 @@
         <div class="container text-center text-md-left">
             <div class="row text-center text-md-left">
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h5 class="text-uppercase mb-4 font-weight-bold text-audi-garage">Aviation:</h5>
+                    <h5 class="mb-4 font-weight-bold text-audi-garage">AVIATION Ltd:</h5>
                     <p class="first-text">Number one company for original aviation parts, news and events! 
                         Cheap and lightning fast delivery anytime anywhere!
                     </p>
@@ -15,6 +15,9 @@
                     </p>
                     <p>
                         <a href="#" class="first-text" style="text-decoration: none;">Pratt & Whitney</a>
+                    </p>
+                    <p>
+                        <a href="#" class="first-text" style="text-decoration: none;">Honeywell</a>
                     </p>
                     <p>
                         <a href="#" class="first-text" style="text-decoration: none;">Safran</a>

@@ -10,13 +10,43 @@
             </p>
         </div>
         <div class="row justify-content-center">
-            <div v-for="(value, key, index) in images" :key="index">
-                <img class="AirportImg" :src="value.imgOne" alt="pic">
+            <div class="col">
+                <img class="AirportImg" src="../assets/Airport.jpg" alt="pic">
+                <p class="textOne">
+                    <router-link to="" class="AirportBtn">The latest changes in airport security</router-link>
+                </p>
+            </div>
+            <div class="col">
+                <img class="AirshowImg" src="../assets/Airshow.jpg" alt="pic">
+                <p class="textOne">
+                    <router-link to="" class="AirshowBtn">Oshkosh Airventure 2022</router-link>
+                </p>
+            </div>
+            <div class="col">
+                <img class="AvionicsImg" src="../assets/Avionics.jpg" alt="pic">
+                <p class="textOne">
+                    <router-link to="" class="AvionicsBtn">What is new in the avionics systems</router-link>
+                </p>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div v-for="(value, key, index) in images" :key="index">
-                <img class="AirshowImg" :src="value.imgTwo" alt="pic">
+            <div class="col">
+                <img class="MaintenanceImg" src="../assets/Maintenance.jpg" alt="pic">
+                <p class="textOne">
+                    <router-link to="" class="MaintenanceBtn">Is maintenance geting more expensive</router-link>
+                </p>
+            </div>
+            <div class="col">
+                <img class="FlightTrainingImg" src="../assets/FlightTraining.jpg" alt="pic">
+                <p class="textOne">
+                    <router-link to="" class="FlightTrainingBtn">Flight school training</router-link>
+                </p>
+            </div>
+            <div class="col">
+                <img class="BioFuelImg" src="../assets/BioFuel.jpg" alt="pic">
+                <p class="textOne">
+                    <router-link to="" class="BioFuelBtn">What is new in the avionics systems</router-link>
+                </p>
             </div>
         </div>
     </div>
@@ -47,7 +77,8 @@
             return {
                 images: [
                     { imgOne: require('@/assets/Airport.jpg') },
-                    { imgTwo: require('@/assets/Airshow.jpg') }
+                    { imgTwo: require('@/assets/Airshow.jpg') },
+                    { imgThree: require('@/assets/Avionics.jpg') }
                 ],
             }
         },

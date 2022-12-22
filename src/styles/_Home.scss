@@ -262,10 +262,39 @@
             font-family: 'Bebas Neue', Courier, monospace;
         }
 
-        .AirportImg {
+        .AirportImg,
+        .AirshowImg,
+        .AvionicsImg,
+        .MaintenanceImg,
+        .FlightTrainingImg,
+        .BioFuelImg {
             width: 25rem;
             height: 17rem;
             margin-top: 3rem;
+        }
+
+        .textOne {
+            font-family: 'Bebas Neue', Courier, monospace;
+            font-size: 1.5rem;
+        }
+
+        .BioFuelBtn,
+        .FlightTrainingBtn,
+        .MaintenanceBtn,
+        .AvionicsBtn,
+        .AirshowBtn,
+        .AirportBtn {
+            color: black;
+            text-decoration: none;
+        }
+
+        .BioFuelBtn:hover,
+        .FlightTrainingBtn:hover,
+        .MaintenanceBtn:hover,
+        .AvionicsBtn:hover,
+        .AirshowBtn:hover,
+        .AirportBtn:hover {
+            color: blue;
         }
     }
 }

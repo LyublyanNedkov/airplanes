@@ -18,21 +18,14 @@
                 </button>
                 <div class="collapse navbar-collapse" :class="menuActive ? 'show' : ''" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item col-xxl-4 col-md-1">
+                        <li class="nav-item col-xxl-6 col-md-1">
                             <router-link class="btnProducts" to="/Products">Products</router-link>
                         </li>                 
-                        <li class="nav-item col-xxl-4 col-md-1">
+                        <li class="nav-item col-xxl-6 col-md-1">
                             <router-link class="btnContacts" to="/Contacts">Contacts</router-link>
                         </li>
-                        <li class="nav-item col-xxl-4 col-md-1">
+                        <li class="nav-item col-xxl-6 col-md-1">
                             <router-link class="btnLogIn" to="/LogIn">Log In</router-link>
-                        </li>
-                        <li class="nav-item col-xxl-4 col-md-1">
-                            <router-link class="btnSC" 
-                                        to="/ShoppingCart"
-                                        @add-to-cart="updateCart">
-                                <box-icon name='cart'></box-icon>
-                            </router-link>
                         </li>
                     </ul>
                 </div>
