@@ -1,0 +1,27 @@
+.container-engine {
+    .fade-enter {
+        opacity: 0;
+    }
+
+    .fade-enter-active {
+        transition: opacity 3s;
+    }
+
+    .fade-leave {
+        opacity: 0;
+    }
+
+    .fade-leave-active {
+        transition: opacity 3s;
+        opacity: 0;
+    }
+
+    .img-a {
+        width: 16rem;
+        height: 16rem;
+    }
+
+    .card-header {
+        font-size: 2rem;
+    }
+}
