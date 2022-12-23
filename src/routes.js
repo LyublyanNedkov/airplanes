@@ -17,7 +17,7 @@ export const routes = [
     { path: '/Contacts', component: Contacts },
     { 
         path: '/Aviation',
-        name: 'Audi general',
+        name: 'Aviation general',
         component: Audi,
         children: [
             {

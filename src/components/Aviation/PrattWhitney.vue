@@ -92,9 +92,6 @@ export default {
         },
         props: [],
         methods: {
-            addToCart() {
-                this.$emit('add-to-cart')
-            }
         },   
         created() {
             bus.$on('dynheader')

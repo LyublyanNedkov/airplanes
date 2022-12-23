@@ -1,5 +1,5 @@
 <template>
-    <div class="container container-engine" id="audi-engine">
+    <div class="container container-engine">
         <div class="row justify-content-center text-center">
             <div class="col col-xxl-3 text-center my-col" v-for="(value, key, index) in koli" :key="index">
                 <transition name="fade" appear="">
